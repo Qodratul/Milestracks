@@ -20,7 +20,6 @@ Model IDs are deployment configuration and can differ between environments. Conf
 | --- | --- |
 | [`apps/mobile`](./apps/mobile/README.md) | Flutter Android/iOS client and local run engine |
 | [`apps/api`](./apps/api/README.md) | Express/TypeScript API, route generation, game logic, persistence |
-| [`apps/remotion-video`](./apps/remotion-video/README.md) | Remotion demo source and rendered video |
 | [`infra`](./infra) | Local PostGIS service configuration |
 
 ## Quick start
