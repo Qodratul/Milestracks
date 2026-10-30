@@ -1,0 +1,254 @@
+[
+  {
+    "name": "3 of 3",
+    "input": {
+      "expPerMilestone": 500,
+      "totalMilestones": 3,
+      "reachedActiveSeconds": [1800, 1900, 2000],
+      "itemCodes": [],
+      "penaltyFreeRun": false,
+      "completion": "finish",
+      "safeStopWithinQuota": false
+    },
+    "expected": {
+      "earnedBase": 1500,
+      "earned": 1500,
+      "penalty": 0,
+      "runResult": 1500,
+      "levelExpGained": 1500,
+      "basis": 1500,
+      "failedMilestoneCount": 0
+    }
+  },
+  {
+    "name": "2 of 3",
+    "input": {
+      "expPerMilestone": 500,
+      "totalMilestones": 3,
+      "reachedActiveSeconds": [1800, 1900],
+      "itemCodes": [],
+      "penaltyFreeRun": false,
+      "completion": "finish",
+      "safeStopWithinQuota": false
+    },
+    "expected": {
+      "earnedBase": 1000,
+      "earned": 1000,
+      "penalty": 500,
+      "runResult": 500,
+      "levelExpGained": 500,
+      "basis": 500,
+      "failedMilestoneCount": 1
+    }
+  },
+  {
+    "name": "1 of 3 can have a negative run result",
+    "input": {
+      "expPerMilestone": 500,
+      "totalMilestones": 3,
+      "reachedActiveSeconds": [1800],
+      "itemCodes": [],
+      "penaltyFreeRun": false,
+      "completion": "finish",
+      "safeStopWithinQuota": false
+    },
+    "expected": {
+      "earnedBase": 500,
+      "earned": 500,
+      "penalty": 1000,
+      "runResult": -500,
+      "levelExpGained": 0,
+      "basis": 0,
+      "failedMilestoneCount": 2
+    }
+  },
+  {
+    "name": "Less Compensation reduces only the penalty",
+    "input": {
+      "expPerMilestone": 500,
+      "totalMilestones": 3,
+      "reachedActiveSeconds": [1800, 1900],
+      "itemCodes": ["less_compensation"],
+      "penaltyFreeRun": false,
+      "completion": "finish",
+      "safeStopWithinQuota": false
+    },
+    "expected": {
+      "earnedBase": 1000,
+      "earned": 1000,
+      "penalty": 325,
+      "runResult": 675,
+      "levelExpGained": 675,
+      "basis": 500,
+      "failedMilestoneCount": 1
+    }
+  },
+  {
+    "name": "EXP Boost applies inside the active-time window",
+    "input": {
+      "expPerMilestone": 500,
+      "totalMilestones": 3,
+      "reachedActiveSeconds": [1000, 1200, 1440],
+      "itemCodes": ["exp_boost"],
+      "penaltyFreeRun": false,
+      "completion": "finish",
+      "safeStopWithinQuota": false
+    },
+    "expected": {
+      "earnedBase": 1500,
+      "earned": 2250,
+      "penalty": 0,
+      "runResult": 2250,
+      "levelExpGained": 2250,
+      "basis": 1500,
+      "failedMilestoneCount": 0
+    }
+  },
+  {
+    "name": "Gain More doubles earned EXP",
+    "input": {
+      "expPerMilestone": 500,
+      "totalMilestones": 3,
+      "reachedActiveSeconds": [1800, 1900, 2000],
+      "itemCodes": ["gain_more"],
+      "penaltyFreeRun": false,
+      "completion": "finish",
+      "safeStopWithinQuota": false
+    },
+    "expected": {
+      "earnedBase": 1500,
+      "earned": 3000,
+      "penalty": 0,
+      "runResult": 3000,
+      "levelExpGained": 3000,
+      "basis": 1500,
+      "failedMilestoneCount": 0
+    }
+  },
+  {
+    "name": "2 of 3 with Gain More",
+    "input": {
+      "expPerMilestone": 500,
+      "totalMilestones": 3,
+      "reachedActiveSeconds": [1800, 1900],
+      "itemCodes": ["gain_more"],
+      "penaltyFreeRun": false,
+      "completion": "finish",
+      "safeStopWithinQuota": false
+    },
+    "expected": {
+      "earnedBase": 1000,
+      "earned": 2000,
+      "penalty": 875,
+      "runResult": 1125,
+      "levelExpGained": 1125,
+      "basis": 500,
+      "failedMilestoneCount": 1
+    }
+  },
+  {
+    "name": "1 of 3 with Gain More can have a negative result",
+    "input": {
+      "expPerMilestone": 500,
+      "totalMilestones": 3,
+      "reachedActiveSeconds": [1800],
+      "itemCodes": ["gain_more"],
+      "penaltyFreeRun": false,
+      "completion": "finish",
+      "safeStopWithinQuota": false
+    },
+    "expected": {
+      "earnedBase": 500,
+      "earned": 1000,
+      "penalty": 1750,
+      "runResult": -750,
+      "levelExpGained": 0,
+      "basis": 0,
+      "failedMilestoneCount": 2
+    }
+  },
+  {
+    "name": "Boost and Gain More stack additively",
+    "input": {
+      "expPerMilestone": 500,
+      "totalMilestones": 3,
+      "reachedActiveSeconds": [1000, 1200, 1400],
+      "itemCodes": ["exp_boost", "gain_more"],
+      "penaltyFreeRun": false,
+      "completion": "finish",
+      "safeStopWithinQuota": false
+    },
+    "expected": {
+      "earnedBase": 1500,
+      "earned": 3750,
+      "penalty": 0,
+      "runResult": 3750,
+      "levelExpGained": 3750,
+      "basis": 1500,
+      "failedMilestoneCount": 0
+    }
+  },
+  {
+    "name": "the penalty-free trial protects missed milestone EXP basis",
+    "input": {
+      "expPerMilestone": 500,
+      "totalMilestones": 3,
+      "reachedActiveSeconds": [1800, 1900],
+      "itemCodes": [],
+      "penaltyFreeRun": true,
+      "completion": "finish",
+      "safeStopWithinQuota": false
+    },
+    "expected": {
+      "earnedBase": 1000,
+      "earned": 1000,
+      "penalty": 0,
+      "runResult": 1000,
+      "levelExpGained": 1000,
+      "basis": 1000,
+      "failedMilestoneCount": 1
+    }
+  },
+  {
+    "name": "Safe Stop inside quota has no missed milestone penalty",
+    "input": {
+      "expPerMilestone": 500,
+      "totalMilestones": 3,
+      "reachedActiveSeconds": [1800],
+      "itemCodes": [],
+      "penaltyFreeRun": false,
+      "completion": "safe_stop",
+      "safeStopWithinQuota": true
+    },
+    "expected": {
+      "earnedBase": 500,
+      "earned": 500,
+      "penalty": 0,
+      "runResult": 500,
+      "levelExpGained": 500,
+      "basis": 500,
+      "failedMilestoneCount": 0
+    }
+  },
+  {
+    "name": "Safe Stop outside quota uses normal finish penalty",
+    "input": {
+      "expPerMilestone": 500,
+      "totalMilestones": 3,
+      "reachedActiveSeconds": [1800],
+      "itemCodes": [],
+      "penaltyFreeRun": false,
+      "completion": "safe_stop",
+      "safeStopWithinQuota": false
+    },
+    "expected": {
+      "earnedBase": 500,
+      "earned": 500,
+      "penalty": 1000,
+      "runResult": -500,
+      "levelExpGained": 0,
+      "basis": 0,
+      "failedMilestoneCount": 2
+    }
+  }
+]

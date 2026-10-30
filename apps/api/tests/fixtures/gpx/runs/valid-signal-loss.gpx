@@ -1,0 +1,5367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Milestride GPX tooling" xmlns="http://www.topografix.com/GPX/1/1" xmlns:ms="https://milestride.app/gpx/extensions/1">
+  <metadata>
+    <name>milestride-signal-loss-seed-104</name>
+    <desc>label=valid; scenario=signal-loss; seed=104</desc>
+  </metadata>
+  <trk>
+    <name>milestride-signal-loss-seed-104</name>
+    <trkseg>
+      <trkpt lat="-6.2184306" lon="106.8020823">
+        <ele>12.0</ele>
+        <time>2026-10-27T00:00:00.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>10.7</ms:accuracyMeters>
+          <ms:speedMps>2.317</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2183890" lon="106.8020823">
+        <ele>12.0</ele>
+        <time>2026-10-27T00:00:02.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>26.5</ms:accuracyMeters>
+          <ms:speedMps>2.317</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2183473" lon="106.8020823">
+        <ele>12.0</ele>
+        <time>2026-10-27T00:00:04.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>29.0</ms:accuracyMeters>
+          <ms:speedMps>2.317</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2183265" lon="106.8020823">
+        <ele>12.1</ele>
+        <time>2026-10-27T00:00:05.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>24.4</ms:accuracyMeters>
+          <ms:speedMps>2.317</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2183056" lon="106.8020823">
+        <ele>12.1</ele>
+        <time>2026-10-27T00:00:06.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>18.8</ms:accuracyMeters>
+          <ms:speedMps>2.317</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2182848" lon="106.8020823">
+        <ele>12.1</ele>
+        <time>2026-10-27T00:00:07.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>15.3</ms:accuracyMeters>
+          <ms:speedMps>2.317</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2182640" lon="106.8020823">
+        <ele>12.1</ele>
+        <time>2026-10-27T00:00:08.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>14.4</ms:accuracyMeters>
+          <ms:speedMps>2.317</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2182223" lon="106.8020823">
+        <ele>12.1</ele>
+        <time>2026-10-27T00:00:10.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>20.4</ms:accuracyMeters>
+          <ms:speedMps>2.317</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2182063" lon="106.8020893">
+        <ele>12.1</ele>
+        <time>2026-10-27T00:00:11.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>29.9</ms:accuracyMeters>
+          <ms:speedMps>2.317</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2181903" lon="106.8020964">
+        <ele>12.1</ele>
+        <time>2026-10-27T00:00:12.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>20.9</ms:accuracyMeters>
+          <ms:speedMps>2.317</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2181743" lon="106.8021034">
+        <ele>12.2</ele>
+        <time>2026-10-27T00:00:13.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>16.3</ms:accuracyMeters>
+          <ms:speedMps>2.317</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2181583" lon="106.8021105">
+        <ele>12.2</ele>
+        <time>2026-10-27T00:00:14.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>25.5</ms:accuracyMeters>
+          <ms:speedMps>2.317</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2181423" lon="106.8021176">
+        <ele>12.2</ele>
+        <time>2026-10-27T00:00:15.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>24.9</ms:accuracyMeters>
+          <ms:speedMps>2.317</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2181103" lon="106.8021317">
+        <ele>12.2</ele>
+        <time>2026-10-27T00:00:17.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>7.5</ms:accuracyMeters>
+          <ms:speedMps>2.317</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2180943" lon="106.8021387">
+        <ele>12.2</ele>
+        <time>2026-10-27T00:00:18.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>9.8</ms:accuracyMeters>
+          <ms:speedMps>2.317</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2180783" lon="106.8021458">
+        <ele>12.2</ele>
+        <time>2026-10-27T00:00:19.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>20.1</ms:accuracyMeters>
+          <ms:speedMps>2.317</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2180623" lon="106.8021529">
+        <ele>12.2</ele>
+        <time>2026-10-27T00:00:20.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>7.7</ms:accuracyMeters>
+          <ms:speedMps>2.317</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2180431" lon="106.8021528">
+        <ele>12.2</ele>
+        <time>2026-10-27T00:00:21.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>19.6</ms:accuracyMeters>
+          <ms:speedMps>2.317</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2179471" lon="106.8021523">
+        <ele>12.3</ele>
+        <time>2026-10-27T00:00:26.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>6.8</ms:accuracyMeters>
+          <ms:speedMps>2.317</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2179278" lon="106.8021522">
+        <ele>12.3</ele>
+        <time>2026-10-27T00:00:27.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>5.3</ms:accuracyMeters>
+          <ms:speedMps>2.317</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2179086" lon="106.8021521">
+        <ele>12.3</ele>
+        <time>2026-10-27T00:00:28.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>23.8</ms:accuracyMeters>
+          <ms:speedMps>2.317</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2178894" lon="106.8021520">
+        <ele>12.3</ele>
+        <time>2026-10-27T00:00:29.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>23.1</ms:accuracyMeters>
+          <ms:speedMps>2.317</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2178548" lon="106.8021463">
+        <ele>12.4</ele>
+        <time>2026-10-27T00:00:31.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>16.2</ms:accuracyMeters>
+          <ms:speedMps>2.317</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2178394" lon="106.8021407">
+        <ele>12.4</ele>
+        <time>2026-10-27T00:00:32.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>17.8</ms:accuracyMeters>
+          <ms:speedMps>2.317</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2178241" lon="106.8021350">
+        <ele>12.4</ele>
+        <time>2026-10-27T00:00:33.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>14.8</ms:accuracyMeters>
+          <ms:speedMps>2.317</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2178087" lon="106.8021294">
+        <ele>12.4</ele>
+        <time>2026-10-27T00:00:34.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>23.9</ms:accuracyMeters>
+          <ms:speedMps>2.317</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2177933" lon="106.8021238">
+        <ele>12.4</ele>
+        <time>2026-10-27T00:00:35.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>13.1</ms:accuracyMeters>
+          <ms:speedMps>2.317</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2177779" lon="106.8021181">
+        <ele>12.4</ele>
+        <time>2026-10-27T00:00:36.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>27.1</ms:accuracyMeters>
+          <ms:speedMps>2.317</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2177625" lon="106.8021125">
+        <ele>12.4</ele>
+        <time>2026-10-27T00:00:37.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>21.4</ms:accuracyMeters>
+          <ms:speedMps>2.317</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2177318" lon="106.8021012">
+        <ele>12.5</ele>
+        <time>2026-10-27T00:00:39.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>8.6</ms:accuracyMeters>
+          <ms:speedMps>2.317</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2177164" lon="106.8020956">
+        <ele>12.5</ele>
+        <time>2026-10-27T00:00:40.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>11.0</ms:accuracyMeters>
+          <ms:speedMps>2.317</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2176884" lon="106.8020925">
+        <ele>12.5</ele>
+        <time>2026-10-27T00:00:41.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>27.4</ms:accuracyMeters>
+          <ms:speedMps>2.317</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2176603" lon="106.8020895">
+        <ele>12.5</ele>
+        <time>2026-10-27T00:00:42.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>28.9</ms:accuracyMeters>
+          <ms:speedMps>2.317</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2176323" lon="106.8020864">
+        <ele>12.5</ele>
+        <time>2026-10-27T00:00:43.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>17.4</ms:accuracyMeters>
+          <ms:speedMps>2.317</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2176043" lon="106.8020834">
+        <ele>12.5</ele>
+        <time>2026-10-27T00:00:44.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>6.1</ms:accuracyMeters>
+          <ms:speedMps>2.317</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2175763" lon="106.8020803">
+        <ele>12.5</ele>
+        <time>2026-10-27T00:00:45.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>13.3</ms:accuracyMeters>
+          <ms:speedMps>2.317</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2175482" lon="106.8020773">
+        <ele>12.5</ele>
+        <time>2026-10-27T00:00:46.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>12.4</ms:accuracyMeters>
+          <ms:speedMps>2.317</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2175202" lon="106.8020742">
+        <ele>12.5</ele>
+        <time>2026-10-27T00:00:47.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>22.8</ms:accuracyMeters>
+          <ms:speedMps>2.317</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2174922" lon="106.8020712">
+        <ele>12.6</ele>
+        <time>2026-10-27T00:00:48.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>10.3</ms:accuracyMeters>
+          <ms:speedMps>2.317</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2174361" lon="106.8020650">
+        <ele>12.6</ele>
+        <time>2026-10-27T00:00:50.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>14.3</ms:accuracyMeters>
+          <ms:speedMps>2.317</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2174134" lon="106.8020709">
+        <ele>12.6</ele>
+        <time>2026-10-27T00:00:51.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>7.6</ms:accuracyMeters>
+          <ms:speedMps>2.317</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2173906" lon="106.8020768">
+        <ele>12.6</ele>
+        <time>2026-10-27T00:00:52.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>12.9</ms:accuracyMeters>
+          <ms:speedMps>2.317</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2173679" lon="106.8020826">
+        <ele>12.6</ele>
+        <time>2026-10-27T00:00:53.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>17.7</ms:accuracyMeters>
+          <ms:speedMps>2.317</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2173451" lon="106.8020885">
+        <ele>12.6</ele>
+        <time>2026-10-27T00:00:54.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>17.0</ms:accuracyMeters>
+          <ms:speedMps>2.317</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2173224" lon="106.8020943">
+        <ele>12.6</ele>
+        <time>2026-10-27T00:00:55.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>9.5</ms:accuracyMeters>
+          <ms:speedMps>2.317</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2172769" lon="106.8021060">
+        <ele>12.7</ele>
+        <time>2026-10-27T00:00:57.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>8.7</ms:accuracyMeters>
+          <ms:speedMps>2.317</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2172542" lon="106.8021119">
+        <ele>12.7</ele>
+        <time>2026-10-27T00:00:58.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>24.6</ms:accuracyMeters>
+          <ms:speedMps>2.317</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2172314" lon="106.8021178">
+        <ele>12.7</ele>
+        <time>2026-10-27T00:00:59.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>17.1</ms:accuracyMeters>
+          <ms:speedMps>2.317</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2172087" lon="106.8021236">
+        <ele>12.7</ele>
+        <time>2026-10-27T00:01:00.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>17.5</ms:accuracyMeters>
+          <ms:speedMps>2.456</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2171945" lon="106.8021261">
+        <ele>12.7</ele>
+        <time>2026-10-27T00:01:01.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>24.5</ms:accuracyMeters>
+          <ms:speedMps>2.456</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2171662" lon="106.8021311">
+        <ele>12.7</ele>
+        <time>2026-10-27T00:01:03.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>28.8</ms:accuracyMeters>
+          <ms:speedMps>2.456</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2171521" lon="106.8021335">
+        <ele>12.7</ele>
+        <time>2026-10-27T00:01:04.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>9.6</ms:accuracyMeters>
+          <ms:speedMps>2.456</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2171379" lon="106.8021360">
+        <ele>12.8</ele>
+        <time>2026-10-27T00:01:05.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>28.6</ms:accuracyMeters>
+          <ms:speedMps>2.456</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2171237" lon="106.8021385">
+        <ele>12.8</ele>
+        <time>2026-10-27T00:01:06.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>21.7</ms:accuracyMeters>
+          <ms:speedMps>2.456</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2171096" lon="106.8021410">
+        <ele>12.8</ele>
+        <time>2026-10-27T00:01:07.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>29.0</ms:accuracyMeters>
+          <ms:speedMps>2.456</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2170954" lon="106.8021434">
+        <ele>12.8</ele>
+        <time>2026-10-27T00:01:08.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>5.3</ms:accuracyMeters>
+          <ms:speedMps>2.456</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2170813" lon="106.8021459">
+        <ele>12.8</ele>
+        <time>2026-10-27T00:01:09.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>13.7</ms:accuracyMeters>
+          <ms:speedMps>2.456</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2170671" lon="106.8021484">
+        <ele>12.8</ele>
+        <time>2026-10-27T00:01:10.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>10.8</ms:accuracyMeters>
+          <ms:speedMps>2.456</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2170257" lon="106.8021433">
+        <ele>12.8</ele>
+        <time>2026-10-27T00:01:12.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>6.1</ms:accuracyMeters>
+          <ms:speedMps>2.456</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2170049" lon="106.8021407">
+        <ele>12.9</ele>
+        <time>2026-10-27T00:01:13.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>22.8</ms:accuracyMeters>
+          <ms:speedMps>2.456</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2169842" lon="106.8021382">
+        <ele>12.9</ele>
+        <time>2026-10-27T00:01:14.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>14.1</ms:accuracyMeters>
+          <ms:speedMps>2.456</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2169634" lon="106.8021356">
+        <ele>12.9</ele>
+        <time>2026-10-27T00:01:15.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>26.0</ms:accuracyMeters>
+          <ms:speedMps>2.456</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2169427" lon="106.8021331">
+        <ele>12.9</ele>
+        <time>2026-10-27T00:01:16.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>10.4</ms:accuracyMeters>
+          <ms:speedMps>2.456</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2169012" lon="106.8021279">
+        <ele>12.9</ele>
+        <time>2026-10-27T00:01:18.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>6.3</ms:accuracyMeters>
+          <ms:speedMps>2.456</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2168598" lon="106.8021228">
+        <ele>12.9</ele>
+        <time>2026-10-27T00:01:20.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>11.1</ms:accuracyMeters>
+          <ms:speedMps>2.456</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2168310" lon="106.8021175">
+        <ele>13.0</ele>
+        <time>2026-10-27T00:01:21.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>16.3</ms:accuracyMeters>
+          <ms:speedMps>2.456</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2167736" lon="106.8021069">
+        <ele>13.0</ele>
+        <time>2026-10-27T00:01:23.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>12.8</ms:accuracyMeters>
+          <ms:speedMps>2.456</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2167448" lon="106.8021015">
+        <ele>13.0</ele>
+        <time>2026-10-27T00:01:24.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>14.6</ms:accuracyMeters>
+          <ms:speedMps>2.456</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2167161" lon="106.8020962">
+        <ele>13.0</ele>
+        <time>2026-10-27T00:01:25.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>25.5</ms:accuracyMeters>
+          <ms:speedMps>2.456</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2166874" lon="106.8020909">
+        <ele>13.0</ele>
+        <time>2026-10-27T00:01:26.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>6.0</ms:accuracyMeters>
+          <ms:speedMps>2.456</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2166299" lon="106.8020802">
+        <ele>13.0</ele>
+        <time>2026-10-27T00:01:28.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>24.0</ms:accuracyMeters>
+          <ms:speedMps>2.456</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2166011" lon="106.8020749">
+        <ele>13.1</ele>
+        <time>2026-10-27T00:01:29.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>8.6</ms:accuracyMeters>
+          <ms:speedMps>2.456</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2165724" lon="106.8020696">
+        <ele>13.1</ele>
+        <time>2026-10-27T00:01:30.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>16.2</ms:accuracyMeters>
+          <ms:speedMps>2.456</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2165481" lon="106.8020721">
+        <ele>13.1</ele>
+        <time>2026-10-27T00:01:31.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>27.0</ms:accuracyMeters>
+          <ms:speedMps>2.456</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2165238" lon="106.8020747">
+        <ele>13.1</ele>
+        <time>2026-10-27T00:01:32.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>11.6</ms:accuracyMeters>
+          <ms:speedMps>2.456</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2164995" lon="106.8020773">
+        <ele>13.1</ele>
+        <time>2026-10-27T00:01:33.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>27.0</ms:accuracyMeters>
+          <ms:speedMps>2.456</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2164752" lon="106.8020798">
+        <ele>13.1</ele>
+        <time>2026-10-27T00:01:34.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>27.2</ms:accuracyMeters>
+          <ms:speedMps>2.456</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2164509" lon="106.8020824">
+        <ele>13.1</ele>
+        <time>2026-10-27T00:01:35.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>19.5</ms:accuracyMeters>
+          <ms:speedMps>2.456</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2164265" lon="106.8020850">
+        <ele>13.1</ele>
+        <time>2026-10-27T00:01:36.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>12.6</ms:accuracyMeters>
+          <ms:speedMps>2.456</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2164022" lon="106.8020875">
+        <ele>13.1</ele>
+        <time>2026-10-27T00:01:37.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>29.7</ms:accuracyMeters>
+          <ms:speedMps>2.456</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2163779" lon="106.8020901">
+        <ele>13.2</ele>
+        <time>2026-10-27T00:01:38.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>15.5</ms:accuracyMeters>
+          <ms:speedMps>2.456</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2163293" lon="106.8020952">
+        <ele>13.2</ele>
+        <time>2026-10-27T00:01:40.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>19.4</ms:accuracyMeters>
+          <ms:speedMps>2.456</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2163142" lon="106.8021006">
+        <ele>13.2</ele>
+        <time>2026-10-27T00:01:41.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>11.6</ms:accuracyMeters>
+          <ms:speedMps>2.456</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2162690" lon="106.8021166">
+        <ele>13.2</ele>
+        <time>2026-10-27T00:01:44.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>9.7</ms:accuracyMeters>
+          <ms:speedMps>2.456</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2162539" lon="106.8021220">
+        <ele>13.2</ele>
+        <time>2026-10-27T00:01:45.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>18.1</ms:accuracyMeters>
+          <ms:speedMps>2.456</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2162389" lon="106.8021273">
+        <ele>13.3</ele>
+        <time>2026-10-27T00:01:46.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>11.7</ms:accuracyMeters>
+          <ms:speedMps>2.456</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2162238" lon="106.8021327">
+        <ele>13.3</ele>
+        <time>2026-10-27T00:01:47.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>29.7</ms:accuracyMeters>
+          <ms:speedMps>2.456</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2162087" lon="106.8021380">
+        <ele>13.3</ele>
+        <time>2026-10-27T00:01:48.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>25.9</ms:accuracyMeters>
+          <ms:speedMps>2.456</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2161936" lon="106.8021433">
+        <ele>13.3</ele>
+        <time>2026-10-27T00:01:49.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>28.5</ms:accuracyMeters>
+          <ms:speedMps>2.456</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2161786" lon="106.8021487">
+        <ele>13.3</ele>
+        <time>2026-10-27T00:01:50.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>19.9</ms:accuracyMeters>
+          <ms:speedMps>2.456</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2161410" lon="106.8021379">
+        <ele>13.3</ele>
+        <time>2026-10-27T00:01:52.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>27.3</ms:accuracyMeters>
+          <ms:speedMps>2.456</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2161221" lon="106.8021325">
+        <ele>13.3</ele>
+        <time>2026-10-27T00:01:53.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>8.6</ms:accuracyMeters>
+          <ms:speedMps>2.456</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2161033" lon="106.8021271">
+        <ele>13.4</ele>
+        <time>2026-10-27T00:01:54.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>17.2</ms:accuracyMeters>
+          <ms:speedMps>2.456</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2160845" lon="106.8021218">
+        <ele>13.4</ele>
+        <time>2026-10-27T00:01:55.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>16.5</ms:accuracyMeters>
+          <ms:speedMps>2.456</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2160657" lon="106.8021164">
+        <ele>13.4</ele>
+        <time>2026-10-27T00:01:56.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>12.2</ms:accuracyMeters>
+          <ms:speedMps>2.456</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2160281" lon="106.8021056">
+        <ele>13.4</ele>
+        <time>2026-10-27T00:01:58.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>22.4</ms:accuracyMeters>
+          <ms:speedMps>2.456</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2160093" lon="106.8021002">
+        <ele>13.4</ele>
+        <time>2026-10-27T00:01:59.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>17.9</ms:accuracyMeters>
+          <ms:speedMps>2.456</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2155319" lon="106.8021562">
+        <ele>13.7</ele>
+        <time>2026-10-27T00:02:20.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>12.5</ms:accuracyMeters>
+          <ms:speedMps>2.300</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2155129" lon="106.8021558">
+        <ele>13.7</ele>
+        <time>2026-10-27T00:02:21.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>11.3</ms:accuracyMeters>
+          <ms:speedMps>2.300</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2154939" lon="106.8021554">
+        <ele>13.7</ele>
+        <time>2026-10-27T00:02:22.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>21.2</ms:accuracyMeters>
+          <ms:speedMps>2.300</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2154749" lon="106.8021549">
+        <ele>13.7</ele>
+        <time>2026-10-27T00:02:23.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>8.0</ms:accuracyMeters>
+          <ms:speedMps>2.300</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2154559" lon="106.8021545">
+        <ele>13.7</ele>
+        <time>2026-10-27T00:02:24.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>19.7</ms:accuracyMeters>
+          <ms:speedMps>2.300</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2154369" lon="106.8021541">
+        <ele>13.7</ele>
+        <time>2026-10-27T00:02:25.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>19.5</ms:accuracyMeters>
+          <ms:speedMps>2.300</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2154179" lon="106.8021536">
+        <ele>13.7</ele>
+        <time>2026-10-27T00:02:26.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>26.3</ms:accuracyMeters>
+          <ms:speedMps>2.300</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2153989" lon="106.8021532">
+        <ele>13.7</ele>
+        <time>2026-10-27T00:02:27.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>17.7</ms:accuracyMeters>
+          <ms:speedMps>2.300</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2153800" lon="106.8021527">
+        <ele>13.8</ele>
+        <time>2026-10-27T00:02:28.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>6.4</ms:accuracyMeters>
+          <ms:speedMps>2.300</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2153610" lon="106.8021523">
+        <ele>13.8</ele>
+        <time>2026-10-27T00:02:29.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>11.7</ms:accuracyMeters>
+          <ms:speedMps>2.300</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2152859" lon="106.8021430">
+        <ele>13.8</ele>
+        <time>2026-10-27T00:02:32.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>11.9</ms:accuracyMeters>
+          <ms:speedMps>2.300</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2152578" lon="106.8021386">
+        <ele>13.8</ele>
+        <time>2026-10-27T00:02:33.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>9.4</ms:accuracyMeters>
+          <ms:speedMps>2.300</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2152297" lon="106.8021342">
+        <ele>13.8</ele>
+        <time>2026-10-27T00:02:34.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>23.8</ms:accuracyMeters>
+          <ms:speedMps>2.300</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2152017" lon="106.8021298">
+        <ele>13.8</ele>
+        <time>2026-10-27T00:02:35.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>16.6</ms:accuracyMeters>
+          <ms:speedMps>2.300</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2151736" lon="106.8021253">
+        <ele>13.8</ele>
+        <time>2026-10-27T00:02:36.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>8.5</ms:accuracyMeters>
+          <ms:speedMps>2.300</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2151455" lon="106.8021209">
+        <ele>13.9</ele>
+        <time>2026-10-27T00:02:37.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>9.9</ms:accuracyMeters>
+          <ms:speedMps>2.300</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2151175" lon="106.8021165">
+        <ele>13.9</ele>
+        <time>2026-10-27T00:02:38.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>6.3</ms:accuracyMeters>
+          <ms:speedMps>2.300</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2150894" lon="106.8021121">
+        <ele>13.9</ele>
+        <time>2026-10-27T00:02:39.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>6.4</ms:accuracyMeters>
+          <ms:speedMps>2.300</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2150614" lon="106.8021077">
+        <ele>13.9</ele>
+        <time>2026-10-27T00:02:40.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>26.5</ms:accuracyMeters>
+          <ms:speedMps>2.300</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2150494" lon="106.8021115">
+        <ele>13.9</ele>
+        <time>2026-10-27T00:02:41.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>22.2</ms:accuracyMeters>
+          <ms:speedMps>2.300</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2150375" lon="106.8021153">
+        <ele>13.9</ele>
+        <time>2026-10-27T00:02:42.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>18.7</ms:accuracyMeters>
+          <ms:speedMps>2.300</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2150256" lon="106.8021192">
+        <ele>13.9</ele>
+        <time>2026-10-27T00:02:43.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>26.6</ms:accuracyMeters>
+          <ms:speedMps>2.300</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2150136" lon="106.8021230">
+        <ele>13.9</ele>
+        <time>2026-10-27T00:02:44.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>14.5</ms:accuracyMeters>
+          <ms:speedMps>2.300</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2150017" lon="106.8021269">
+        <ele>13.9</ele>
+        <time>2026-10-27T00:02:45.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>27.8</ms:accuracyMeters>
+          <ms:speedMps>2.300</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149898" lon="106.8021307">
+        <ele>14.0</ele>
+        <time>2026-10-27T00:02:46.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>22.7</ms:accuracyMeters>
+          <ms:speedMps>2.300</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149659" lon="106.8021384">
+        <ele>14.0</ele>
+        <time>2026-10-27T00:02:48.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>17.1</ms:accuracyMeters>
+          <ms:speedMps>2.300</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149540" lon="106.8021423">
+        <ele>14.0</ele>
+        <time>2026-10-27T00:02:49.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>9.9</ms:accuracyMeters>
+          <ms:speedMps>2.300</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149512" lon="106.8021553">
+        <ele>14.0</ele>
+        <time>2026-10-27T00:02:50.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>26.5</ms:accuracyMeters>
+          <ms:speedMps>2.300</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149435" lon="106.8021781">
+        <ele>14.0</ele>
+        <time>2026-10-27T00:02:51.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>12.5</ms:accuracyMeters>
+          <ms:speedMps>2.300</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149359" lon="106.8022008">
+        <ele>14.0</ele>
+        <time>2026-10-27T00:02:52.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>9.8</ms:accuracyMeters>
+          <ms:speedMps>2.300</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149282" lon="106.8022236">
+        <ele>14.0</ele>
+        <time>2026-10-27T00:02:53.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>26.8</ms:accuracyMeters>
+          <ms:speedMps>2.300</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149205" lon="106.8022463">
+        <ele>14.0</ele>
+        <time>2026-10-27T00:02:54.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>18.3</ms:accuracyMeters>
+          <ms:speedMps>2.300</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2148898" lon="106.8023373">
+        <ele>14.0</ele>
+        <time>2026-10-27T00:02:58.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>14.7</ms:accuracyMeters>
+          <ms:speedMps>2.300</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2148821" lon="106.8023601">
+        <ele>14.1</ele>
+        <time>2026-10-27T00:02:59.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>14.2</ms:accuracyMeters>
+          <ms:speedMps>2.300</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2148745" lon="106.8023828">
+        <ele>14.1</ele>
+        <time>2026-10-27T00:03:00.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>18.6</ms:accuracyMeters>
+          <ms:speedMps>2.281</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2148824" lon="106.8023947">
+        <ele>14.1</ele>
+        <time>2026-10-27T00:03:01.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>22.7</ms:accuracyMeters>
+          <ms:speedMps>2.281</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2148903" lon="106.8024065">
+        <ele>14.1</ele>
+        <time>2026-10-27T00:03:02.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>14.3</ms:accuracyMeters>
+          <ms:speedMps>2.281</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2148983" lon="106.8024183">
+        <ele>14.1</ele>
+        <time>2026-10-27T00:03:03.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>21.2</ms:accuracyMeters>
+          <ms:speedMps>2.281</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149062" lon="106.8024301">
+        <ele>14.1</ele>
+        <time>2026-10-27T00:03:04.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>28.9</ms:accuracyMeters>
+          <ms:speedMps>2.281</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149141" lon="106.8024419">
+        <ele>14.1</ele>
+        <time>2026-10-27T00:03:05.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>17.9</ms:accuracyMeters>
+          <ms:speedMps>2.281</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149220" lon="106.8024537">
+        <ele>14.1</ele>
+        <time>2026-10-27T00:03:06.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>28.2</ms:accuracyMeters>
+          <ms:speedMps>2.281</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149300" lon="106.8024655">
+        <ele>14.1</ele>
+        <time>2026-10-27T00:03:07.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>29.9</ms:accuracyMeters>
+          <ms:speedMps>2.281</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149379" lon="106.8024774">
+        <ele>14.1</ele>
+        <time>2026-10-27T00:03:08.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>6.9</ms:accuracyMeters>
+          <ms:speedMps>2.281</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149458" lon="106.8024892">
+        <ele>14.1</ele>
+        <time>2026-10-27T00:03:09.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>18.5</ms:accuracyMeters>
+          <ms:speedMps>2.281</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149538" lon="106.8025010">
+        <ele>14.1</ele>
+        <time>2026-10-27T00:03:10.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>10.6</ms:accuracyMeters>
+          <ms:speedMps>2.281</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149445" lon="106.8025247">
+        <ele>14.1</ele>
+        <time>2026-10-27T00:03:11.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>14.0</ms:accuracyMeters>
+          <ms:speedMps>2.281</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149352" lon="106.8025485">
+        <ele>14.1</ele>
+        <time>2026-10-27T00:03:12.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>26.4</ms:accuracyMeters>
+          <ms:speedMps>2.281</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149165" lon="106.8025960">
+        <ele>14.1</ele>
+        <time>2026-10-27T00:03:14.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>19.0</ms:accuracyMeters>
+          <ms:speedMps>2.281</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149072" lon="106.8026198">
+        <ele>14.1</ele>
+        <time>2026-10-27T00:03:15.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>22.4</ms:accuracyMeters>
+          <ms:speedMps>2.281</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2148979" lon="106.8026436">
+        <ele>14.1</ele>
+        <time>2026-10-27T00:03:16.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>17.4</ms:accuracyMeters>
+          <ms:speedMps>2.281</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2148886" lon="106.8026673">
+        <ele>14.1</ele>
+        <time>2026-10-27T00:03:17.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>10.9</ms:accuracyMeters>
+          <ms:speedMps>2.281</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2148793" lon="106.8026911">
+        <ele>14.2</ele>
+        <time>2026-10-27T00:03:18.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>6.3</ms:accuracyMeters>
+          <ms:speedMps>2.281</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2148700" lon="106.8027148">
+        <ele>14.2</ele>
+        <time>2026-10-27T00:03:19.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>23.5</ms:accuracyMeters>
+          <ms:speedMps>2.281</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2148607" lon="106.8027386">
+        <ele>14.2</ele>
+        <time>2026-10-27T00:03:20.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>6.2</ms:accuracyMeters>
+          <ms:speedMps>2.281</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2148642" lon="106.8027549">
+        <ele>14.2</ele>
+        <time>2026-10-27T00:03:21.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>16.9</ms:accuracyMeters>
+          <ms:speedMps>2.281</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2148676" lon="106.8027713">
+        <ele>14.2</ele>
+        <time>2026-10-27T00:03:22.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>6.0</ms:accuracyMeters>
+          <ms:speedMps>2.281</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2148711" lon="106.8027876">
+        <ele>14.2</ele>
+        <time>2026-10-27T00:03:23.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>26.9</ms:accuracyMeters>
+          <ms:speedMps>2.281</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2148745" lon="106.8028040">
+        <ele>14.2</ele>
+        <time>2026-10-27T00:03:24.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>14.0</ms:accuracyMeters>
+          <ms:speedMps>2.281</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2148780" lon="106.8028203">
+        <ele>14.2</ele>
+        <time>2026-10-27T00:03:25.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>6.0</ms:accuracyMeters>
+          <ms:speedMps>2.281</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2148849" lon="106.8028530">
+        <ele>14.2</ele>
+        <time>2026-10-27T00:03:27.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>24.2</ms:accuracyMeters>
+          <ms:speedMps>2.281</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2148883" lon="106.8028694">
+        <ele>14.2</ele>
+        <time>2026-10-27T00:03:28.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>29.0</ms:accuracyMeters>
+          <ms:speedMps>2.281</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2148918" lon="106.8028857">
+        <ele>14.2</ele>
+        <time>2026-10-27T00:03:29.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>20.0</ms:accuracyMeters>
+          <ms:speedMps>2.281</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2148952" lon="106.8029020">
+        <ele>14.2</ele>
+        <time>2026-10-27T00:03:30.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>6.2</ms:accuracyMeters>
+          <ms:speedMps>2.281</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149013" lon="106.8029225">
+        <ele>14.2</ele>
+        <time>2026-10-27T00:03:31.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>11.4</ms:accuracyMeters>
+          <ms:speedMps>2.281</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149075" lon="106.8029430">
+        <ele>14.2</ele>
+        <time>2026-10-27T00:03:32.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>7.0</ms:accuracyMeters>
+          <ms:speedMps>2.281</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149136" lon="106.8029635">
+        <ele>14.2</ele>
+        <time>2026-10-27T00:03:33.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>19.9</ms:accuracyMeters>
+          <ms:speedMps>2.281</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149198" lon="106.8029840">
+        <ele>14.2</ele>
+        <time>2026-10-27T00:03:34.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>24.2</ms:accuracyMeters>
+          <ms:speedMps>2.281</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149259" lon="106.8030044">
+        <ele>14.2</ele>
+        <time>2026-10-27T00:03:35.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>14.7</ms:accuracyMeters>
+          <ms:speedMps>2.281</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149320" lon="106.8030249">
+        <ele>14.3</ele>
+        <time>2026-10-27T00:03:36.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>12.4</ms:accuracyMeters>
+          <ms:speedMps>2.281</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149382" lon="106.8030454">
+        <ele>14.3</ele>
+        <time>2026-10-27T00:03:37.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>18.7</ms:accuracyMeters>
+          <ms:speedMps>2.281</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149443" lon="106.8030659">
+        <ele>14.3</ele>
+        <time>2026-10-27T00:03:38.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>16.0</ms:accuracyMeters>
+          <ms:speedMps>2.281</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149504" lon="106.8030864">
+        <ele>14.3</ele>
+        <time>2026-10-27T00:03:39.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>7.8</ms:accuracyMeters>
+          <ms:speedMps>2.281</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149566" lon="106.8031068">
+        <ele>14.3</ele>
+        <time>2026-10-27T00:03:40.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>11.9</ms:accuracyMeters>
+          <ms:speedMps>2.281</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149459" lon="106.8031322">
+        <ele>14.3</ele>
+        <time>2026-10-27T00:03:41.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>29.0</ms:accuracyMeters>
+          <ms:speedMps>2.281</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149352" lon="106.8031575">
+        <ele>14.3</ele>
+        <time>2026-10-27T00:03:42.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>16.0</ms:accuracyMeters>
+          <ms:speedMps>2.281</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149245" lon="106.8031828">
+        <ele>14.3</ele>
+        <time>2026-10-27T00:03:43.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>25.9</ms:accuracyMeters>
+          <ms:speedMps>2.281</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149138" lon="106.8032081">
+        <ele>14.3</ele>
+        <time>2026-10-27T00:03:44.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>5.5</ms:accuracyMeters>
+          <ms:speedMps>2.281</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149031" lon="106.8032334">
+        <ele>14.3</ele>
+        <time>2026-10-27T00:03:45.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>8.2</ms:accuracyMeters>
+          <ms:speedMps>2.281</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2148924" lon="106.8032587">
+        <ele>14.3</ele>
+        <time>2026-10-27T00:03:46.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>8.8</ms:accuracyMeters>
+          <ms:speedMps>2.281</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2148817" lon="106.8032840">
+        <ele>14.3</ele>
+        <time>2026-10-27T00:03:47.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>22.9</ms:accuracyMeters>
+          <ms:speedMps>2.281</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2148603" lon="106.8033346">
+        <ele>14.3</ele>
+        <time>2026-10-27T00:03:49.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>28.8</ms:accuracyMeters>
+          <ms:speedMps>2.281</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2148496" lon="106.8033599">
+        <ele>14.3</ele>
+        <time>2026-10-27T00:03:50.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>25.6</ms:accuracyMeters>
+          <ms:speedMps>2.281</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2148568" lon="106.8033811">
+        <ele>14.3</ele>
+        <time>2026-10-27T00:03:51.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>14.2</ms:accuracyMeters>
+          <ms:speedMps>2.281</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2148640" lon="106.8034022">
+        <ele>14.3</ele>
+        <time>2026-10-27T00:03:52.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>15.1</ms:accuracyMeters>
+          <ms:speedMps>2.281</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2148713" lon="106.8034234">
+        <ele>14.3</ele>
+        <time>2026-10-27T00:03:53.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>28.7</ms:accuracyMeters>
+          <ms:speedMps>2.281</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2148857" lon="106.8034657">
+        <ele>14.4</ele>
+        <time>2026-10-27T00:03:55.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>5.8</ms:accuracyMeters>
+          <ms:speedMps>2.281</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2148929" lon="106.8034869">
+        <ele>14.4</ele>
+        <time>2026-10-27T00:03:56.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>9.6</ms:accuracyMeters>
+          <ms:speedMps>2.281</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149002" lon="106.8035080">
+        <ele>14.4</ele>
+        <time>2026-10-27T00:03:57.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>8.9</ms:accuracyMeters>
+          <ms:speedMps>2.281</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149074" lon="106.8035292">
+        <ele>14.4</ele>
+        <time>2026-10-27T00:03:58.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>18.0</ms:accuracyMeters>
+          <ms:speedMps>2.281</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149146" lon="106.8035503">
+        <ele>14.4</ele>
+        <time>2026-10-27T00:03:59.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>19.5</ms:accuracyMeters>
+          <ms:speedMps>2.281</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149218" lon="106.8035715">
+        <ele>14.4</ele>
+        <time>2026-10-27T00:04:00.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>10.5</ms:accuracyMeters>
+          <ms:speedMps>2.316</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149228" lon="106.8035933">
+        <ele>14.4</ele>
+        <time>2026-10-27T00:04:01.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>14.9</ms:accuracyMeters>
+          <ms:speedMps>2.316</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149237" lon="106.8036152">
+        <ele>14.4</ele>
+        <time>2026-10-27T00:04:02.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>26.6</ms:accuracyMeters>
+          <ms:speedMps>2.316</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149246" lon="106.8036370">
+        <ele>14.4</ele>
+        <time>2026-10-27T00:04:03.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>27.2</ms:accuracyMeters>
+          <ms:speedMps>2.316</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149255" lon="106.8036588">
+        <ele>14.4</ele>
+        <time>2026-10-27T00:04:04.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>13.9</ms:accuracyMeters>
+          <ms:speedMps>2.316</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149274" lon="106.8037025">
+        <ele>14.4</ele>
+        <time>2026-10-27T00:04:06.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>8.7</ms:accuracyMeters>
+          <ms:speedMps>2.316</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149283" lon="106.8037244">
+        <ele>14.4</ele>
+        <time>2026-10-27T00:04:07.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>26.6</ms:accuracyMeters>
+          <ms:speedMps>2.316</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149292" lon="106.8037462">
+        <ele>14.4</ele>
+        <time>2026-10-27T00:04:08.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>28.0</ms:accuracyMeters>
+          <ms:speedMps>2.316</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149301" lon="106.8037680">
+        <ele>14.4</ele>
+        <time>2026-10-27T00:04:09.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>20.6</ms:accuracyMeters>
+          <ms:speedMps>2.316</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149310" lon="106.8037899">
+        <ele>14.4</ele>
+        <time>2026-10-27T00:04:10.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>23.8</ms:accuracyMeters>
+          <ms:speedMps>2.316</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149295" lon="106.8038040">
+        <ele>14.4</ele>
+        <time>2026-10-27T00:04:11.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>15.8</ms:accuracyMeters>
+          <ms:speedMps>2.316</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149279" lon="106.8038182">
+        <ele>14.4</ele>
+        <time>2026-10-27T00:04:12.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>8.3</ms:accuracyMeters>
+          <ms:speedMps>2.316</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149263" lon="106.8038323">
+        <ele>14.5</ele>
+        <time>2026-10-27T00:04:13.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>6.3</ms:accuracyMeters>
+          <ms:speedMps>2.316</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149247" lon="106.8038465">
+        <ele>14.5</ele>
+        <time>2026-10-27T00:04:14.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>13.9</ms:accuracyMeters>
+          <ms:speedMps>2.316</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149231" lon="106.8038606">
+        <ele>14.5</ele>
+        <time>2026-10-27T00:04:15.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>12.3</ms:accuracyMeters>
+          <ms:speedMps>2.316</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149215" lon="106.8038748">
+        <ele>14.5</ele>
+        <time>2026-10-27T00:04:16.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>15.0</ms:accuracyMeters>
+          <ms:speedMps>2.316</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149184" lon="106.8039031">
+        <ele>14.5</ele>
+        <time>2026-10-27T00:04:18.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>16.8</ms:accuracyMeters>
+          <ms:speedMps>2.316</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149168" lon="106.8039172">
+        <ele>14.5</ele>
+        <time>2026-10-27T00:04:19.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>19.5</ms:accuracyMeters>
+          <ms:speedMps>2.316</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149152" lon="106.8039314">
+        <ele>14.5</ele>
+        <time>2026-10-27T00:04:20.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>7.5</ms:accuracyMeters>
+          <ms:speedMps>2.316</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149196" lon="106.8039588">
+        <ele>14.5</ele>
+        <time>2026-10-27T00:04:21.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>16.9</ms:accuracyMeters>
+          <ms:speedMps>2.316</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149239" lon="106.8039863">
+        <ele>14.5</ele>
+        <time>2026-10-27T00:04:22.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>25.1</ms:accuracyMeters>
+          <ms:speedMps>2.316</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149283" lon="106.8040137">
+        <ele>14.5</ele>
+        <time>2026-10-27T00:04:23.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>6.8</ms:accuracyMeters>
+          <ms:speedMps>2.316</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149370" lon="106.8040686">
+        <ele>14.5</ele>
+        <time>2026-10-27T00:04:25.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>8.8</ms:accuracyMeters>
+          <ms:speedMps>2.316</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149414" lon="106.8040960">
+        <ele>14.5</ele>
+        <time>2026-10-27T00:04:26.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>20.4</ms:accuracyMeters>
+          <ms:speedMps>2.316</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149501" lon="106.8041509">
+        <ele>14.5</ele>
+        <time>2026-10-27T00:04:28.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>23.5</ms:accuracyMeters>
+          <ms:speedMps>2.316</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149588" lon="106.8042058">
+        <ele>14.5</ele>
+        <time>2026-10-27T00:04:30.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>23.3</ms:accuracyMeters>
+          <ms:speedMps>2.316</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149480" lon="106.8042255">
+        <ele>14.6</ele>
+        <time>2026-10-27T00:04:31.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>22.1</ms:accuracyMeters>
+          <ms:speedMps>2.316</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149371" lon="106.8042452">
+        <ele>14.6</ele>
+        <time>2026-10-27T00:04:32.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>5.8</ms:accuracyMeters>
+          <ms:speedMps>2.316</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149262" lon="106.8042649">
+        <ele>14.6</ele>
+        <time>2026-10-27T00:04:33.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>8.0</ms:accuracyMeters>
+          <ms:speedMps>2.316</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149154" lon="106.8042846">
+        <ele>14.6</ele>
+        <time>2026-10-27T00:04:34.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>14.7</ms:accuracyMeters>
+          <ms:speedMps>2.316</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149045" lon="106.8043042">
+        <ele>14.6</ele>
+        <time>2026-10-27T00:04:35.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>15.8</ms:accuracyMeters>
+          <ms:speedMps>2.316</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2148937" lon="106.8043239">
+        <ele>14.6</ele>
+        <time>2026-10-27T00:04:36.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>13.9</ms:accuracyMeters>
+          <ms:speedMps>2.316</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2148828" lon="106.8043436">
+        <ele>14.6</ele>
+        <time>2026-10-27T00:04:37.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>27.1</ms:accuracyMeters>
+          <ms:speedMps>2.316</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2148719" lon="106.8043633">
+        <ele>14.6</ele>
+        <time>2026-10-27T00:04:38.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>7.4</ms:accuracyMeters>
+          <ms:speedMps>2.316</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2148611" lon="106.8043830">
+        <ele>14.6</ele>
+        <time>2026-10-27T00:04:39.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>7.5</ms:accuracyMeters>
+          <ms:speedMps>2.316</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2148502" lon="106.8044027">
+        <ele>14.6</ele>
+        <time>2026-10-27T00:04:40.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>28.1</ms:accuracyMeters>
+          <ms:speedMps>2.316</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2148554" lon="106.8044259">
+        <ele>14.6</ele>
+        <time>2026-10-27T00:04:41.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>26.3</ms:accuracyMeters>
+          <ms:speedMps>2.316</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2148607" lon="106.8044492">
+        <ele>14.6</ele>
+        <time>2026-10-27T00:04:42.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>23.2</ms:accuracyMeters>
+          <ms:speedMps>2.316</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2148659" lon="106.8044724">
+        <ele>14.6</ele>
+        <time>2026-10-27T00:04:43.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>7.6</ms:accuracyMeters>
+          <ms:speedMps>2.316</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2148711" lon="106.8044957">
+        <ele>14.6</ele>
+        <time>2026-10-27T00:04:44.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>16.2</ms:accuracyMeters>
+          <ms:speedMps>2.316</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2148763" lon="106.8045189">
+        <ele>14.6</ele>
+        <time>2026-10-27T00:04:45.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>6.5</ms:accuracyMeters>
+          <ms:speedMps>2.316</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2148815" lon="106.8045422">
+        <ele>14.6</ele>
+        <time>2026-10-27T00:04:46.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>26.7</ms:accuracyMeters>
+          <ms:speedMps>2.316</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2148920" lon="106.8045886">
+        <ele>14.6</ele>
+        <time>2026-10-27T00:04:48.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>11.2</ms:accuracyMeters>
+          <ms:speedMps>2.316</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2148972" lon="106.8046119">
+        <ele>14.7</ele>
+        <time>2026-10-27T00:04:49.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>19.4</ms:accuracyMeters>
+          <ms:speedMps>2.316</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149024" lon="106.8046351">
+        <ele>14.7</ele>
+        <time>2026-10-27T00:04:50.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>7.4</ms:accuracyMeters>
+          <ms:speedMps>2.316</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2148990" lon="106.8046565">
+        <ele>14.7</ele>
+        <time>2026-10-27T00:04:51.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>19.3</ms:accuracyMeters>
+          <ms:speedMps>2.316</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2148955" lon="106.8046779">
+        <ele>14.7</ele>
+        <time>2026-10-27T00:04:52.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>17.6</ms:accuracyMeters>
+          <ms:speedMps>2.316</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2148921" lon="106.8046993">
+        <ele>14.7</ele>
+        <time>2026-10-27T00:04:53.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>13.6</ms:accuracyMeters>
+          <ms:speedMps>2.316</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2148887" lon="106.8047207">
+        <ele>14.7</ele>
+        <time>2026-10-27T00:04:54.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>27.3</ms:accuracyMeters>
+          <ms:speedMps>2.316</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2148852" lon="106.8047421">
+        <ele>14.7</ele>
+        <time>2026-10-27T00:04:55.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>16.1</ms:accuracyMeters>
+          <ms:speedMps>2.316</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2148818" lon="106.8047635">
+        <ele>14.7</ele>
+        <time>2026-10-27T00:04:56.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>22.4</ms:accuracyMeters>
+          <ms:speedMps>2.316</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2148784" lon="106.8047849">
+        <ele>14.7</ele>
+        <time>2026-10-27T00:04:57.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>11.6</ms:accuracyMeters>
+          <ms:speedMps>2.316</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2148749" lon="106.8048063">
+        <ele>14.7</ele>
+        <time>2026-10-27T00:04:58.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>8.3</ms:accuracyMeters>
+          <ms:speedMps>2.316</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2148715" lon="106.8048277">
+        <ele>14.7</ele>
+        <time>2026-10-27T00:04:59.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>13.5</ms:accuracyMeters>
+          <ms:speedMps>2.316</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2148652" lon="106.8048933">
+        <ele>14.7</ele>
+        <time>2026-10-27T00:05:02.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>19.0</ms:accuracyMeters>
+          <ms:speedMps>2.342</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2148637" lon="106.8049154">
+        <ele>14.7</ele>
+        <time>2026-10-27T00:05:03.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>17.3</ms:accuracyMeters>
+          <ms:speedMps>2.342</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2148623" lon="106.8049375">
+        <ele>14.7</ele>
+        <time>2026-10-27T00:05:04.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>29.8</ms:accuracyMeters>
+          <ms:speedMps>2.342</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2148608" lon="106.8049596">
+        <ele>14.7</ele>
+        <time>2026-10-27T00:05:05.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>21.3</ms:accuracyMeters>
+          <ms:speedMps>2.342</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2148594" lon="106.8049817">
+        <ele>14.7</ele>
+        <time>2026-10-27T00:05:06.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>5.9</ms:accuracyMeters>
+          <ms:speedMps>2.342</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2148579" lon="106.8050039">
+        <ele>14.8</ele>
+        <time>2026-10-27T00:05:07.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>27.6</ms:accuracyMeters>
+          <ms:speedMps>2.342</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2148565" lon="106.8050260">
+        <ele>14.8</ele>
+        <time>2026-10-27T00:05:08.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>25.5</ms:accuracyMeters>
+          <ms:speedMps>2.342</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2148550" lon="106.8050481">
+        <ele>14.8</ele>
+        <time>2026-10-27T00:05:09.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>24.0</ms:accuracyMeters>
+          <ms:speedMps>2.342</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2148536" lon="106.8050702">
+        <ele>14.8</ele>
+        <time>2026-10-27T00:05:10.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>24.5</ms:accuracyMeters>
+          <ms:speedMps>2.342</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2148648" lon="106.8050976">
+        <ele>14.8</ele>
+        <time>2026-10-27T00:05:12.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>19.5</ms:accuracyMeters>
+          <ms:speedMps>2.342</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2148705" lon="106.8051113">
+        <ele>14.8</ele>
+        <time>2026-10-27T00:05:13.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>5.4</ms:accuracyMeters>
+          <ms:speedMps>2.342</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2148761" lon="106.8051250">
+        <ele>14.8</ele>
+        <time>2026-10-27T00:05:14.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>9.7</ms:accuracyMeters>
+          <ms:speedMps>2.342</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2148817" lon="106.8051387">
+        <ele>14.8</ele>
+        <time>2026-10-27T00:05:15.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>5.3</ms:accuracyMeters>
+          <ms:speedMps>2.342</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2148873" lon="106.8051524">
+        <ele>14.8</ele>
+        <time>2026-10-27T00:05:16.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>16.4</ms:accuracyMeters>
+          <ms:speedMps>2.342</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2148930" lon="106.8051661">
+        <ele>14.8</ele>
+        <time>2026-10-27T00:05:17.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>24.0</ms:accuracyMeters>
+          <ms:speedMps>2.342</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2148986" lon="106.8051798">
+        <ele>14.8</ele>
+        <time>2026-10-27T00:05:18.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>22.1</ms:accuracyMeters>
+          <ms:speedMps>2.342</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149042" lon="106.8051935">
+        <ele>14.8</ele>
+        <time>2026-10-27T00:05:19.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>13.2</ms:accuracyMeters>
+          <ms:speedMps>2.342</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149099" lon="106.8052072">
+        <ele>14.8</ele>
+        <time>2026-10-27T00:05:20.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>24.0</ms:accuracyMeters>
+          <ms:speedMps>2.342</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149153" lon="106.8052285">
+        <ele>14.8</ele>
+        <time>2026-10-27T00:05:21.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>11.2</ms:accuracyMeters>
+          <ms:speedMps>2.342</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149206" lon="106.8052499">
+        <ele>14.8</ele>
+        <time>2026-10-27T00:05:22.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>26.6</ms:accuracyMeters>
+          <ms:speedMps>2.342</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149260" lon="106.8052712">
+        <ele>14.8</ele>
+        <time>2026-10-27T00:05:23.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>7.7</ms:accuracyMeters>
+          <ms:speedMps>2.342</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149314" lon="106.8052925">
+        <ele>14.8</ele>
+        <time>2026-10-27T00:05:24.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>22.2</ms:accuracyMeters>
+          <ms:speedMps>2.342</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149368" lon="106.8053138">
+        <ele>14.9</ele>
+        <time>2026-10-27T00:05:25.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>13.5</ms:accuracyMeters>
+          <ms:speedMps>2.342</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149422" lon="106.8053351">
+        <ele>14.9</ele>
+        <time>2026-10-27T00:05:26.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>7.0</ms:accuracyMeters>
+          <ms:speedMps>2.342</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149476" lon="106.8053564">
+        <ele>14.9</ele>
+        <time>2026-10-27T00:05:27.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>28.3</ms:accuracyMeters>
+          <ms:speedMps>2.342</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149530" lon="106.8053777">
+        <ele>14.9</ele>
+        <time>2026-10-27T00:05:28.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>8.0</ms:accuracyMeters>
+          <ms:speedMps>2.342</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149584" lon="106.8053990">
+        <ele>14.9</ele>
+        <time>2026-10-27T00:05:29.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>25.1</ms:accuracyMeters>
+          <ms:speedMps>2.342</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149592" lon="106.8054507">
+        <ele>14.9</ele>
+        <time>2026-10-27T00:05:31.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>8.0</ms:accuracyMeters>
+          <ms:speedMps>2.342</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149546" lon="106.8054811">
+        <ele>14.9</ele>
+        <time>2026-10-27T00:05:32.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>21.8</ms:accuracyMeters>
+          <ms:speedMps>2.342</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149500" lon="106.8055116">
+        <ele>14.9</ele>
+        <time>2026-10-27T00:05:33.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>16.3</ms:accuracyMeters>
+          <ms:speedMps>2.342</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149454" lon="106.8055420">
+        <ele>14.9</ele>
+        <time>2026-10-27T00:05:34.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>29.1</ms:accuracyMeters>
+          <ms:speedMps>2.342</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149362" lon="106.8056028">
+        <ele>14.9</ele>
+        <time>2026-10-27T00:05:36.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>16.4</ms:accuracyMeters>
+          <ms:speedMps>2.342</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149316" lon="106.8056332">
+        <ele>14.9</ele>
+        <time>2026-10-27T00:05:37.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>23.8</ms:accuracyMeters>
+          <ms:speedMps>2.342</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149270" lon="106.8056636">
+        <ele>14.9</ele>
+        <time>2026-10-27T00:05:38.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>5.9</ms:accuracyMeters>
+          <ms:speedMps>2.342</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149224" lon="106.8056940">
+        <ele>14.9</ele>
+        <time>2026-10-27T00:05:39.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>14.2</ms:accuracyMeters>
+          <ms:speedMps>2.342</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149178" lon="106.8057244">
+        <ele>14.9</ele>
+        <time>2026-10-27T00:05:40.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>23.6</ms:accuracyMeters>
+          <ms:speedMps>2.342</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149171" lon="106.8057362">
+        <ele>14.9</ele>
+        <time>2026-10-27T00:05:41.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>21.8</ms:accuracyMeters>
+          <ms:speedMps>2.342</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149165" lon="106.8057481">
+        <ele>14.9</ele>
+        <time>2026-10-27T00:05:42.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>10.5</ms:accuracyMeters>
+          <ms:speedMps>2.342</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149158" lon="106.8057599">
+        <ele>15.0</ele>
+        <time>2026-10-27T00:05:43.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>11.5</ms:accuracyMeters>
+          <ms:speedMps>2.342</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149145" lon="106.8057836">
+        <ele>15.0</ele>
+        <time>2026-10-27T00:05:45.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>21.3</ms:accuracyMeters>
+          <ms:speedMps>2.342</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149138" lon="106.8057954">
+        <ele>15.0</ele>
+        <time>2026-10-27T00:05:46.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>11.8</ms:accuracyMeters>
+          <ms:speedMps>2.342</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149131" lon="106.8058073">
+        <ele>15.0</ele>
+        <time>2026-10-27T00:05:47.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>21.8</ms:accuracyMeters>
+          <ms:speedMps>2.342</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149125" lon="106.8058191">
+        <ele>15.0</ele>
+        <time>2026-10-27T00:05:48.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>17.1</ms:accuracyMeters>
+          <ms:speedMps>2.342</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149118" lon="106.8058309">
+        <ele>15.0</ele>
+        <time>2026-10-27T00:05:49.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>8.4</ms:accuracyMeters>
+          <ms:speedMps>2.342</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149111" lon="106.8058428">
+        <ele>15.0</ele>
+        <time>2026-10-27T00:05:50.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>22.9</ms:accuracyMeters>
+          <ms:speedMps>2.342</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149137" lon="106.8058692">
+        <ele>15.0</ele>
+        <time>2026-10-27T00:05:51.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>21.1</ms:accuracyMeters>
+          <ms:speedMps>2.342</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149303" lon="106.8058815">
+        <ele>15.0</ele>
+        <time>2026-10-27T00:05:52.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>9.2</ms:accuracyMeters>
+          <ms:speedMps>2.342</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149539" lon="106.8058867">
+        <ele>15.0</ele>
+        <time>2026-10-27T00:05:53.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>18.4</ms:accuracyMeters>
+          <ms:speedMps>2.342</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2149774" lon="106.8058920">
+        <ele>15.0</ele>
+        <time>2026-10-27T00:05:54.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>26.3</ms:accuracyMeters>
+          <ms:speedMps>2.342</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2150010" lon="106.8058972">
+        <ele>15.0</ele>
+        <time>2026-10-27T00:05:55.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>22.6</ms:accuracyMeters>
+          <ms:speedMps>2.342</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2150246" lon="106.8059025">
+        <ele>14.9</ele>
+        <time>2026-10-27T00:05:56.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>29.4</ms:accuracyMeters>
+          <ms:speedMps>2.342</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2150482" lon="106.8059077">
+        <ele>14.9</ele>
+        <time>2026-10-27T00:05:57.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>18.9</ms:accuracyMeters>
+          <ms:speedMps>2.342</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2150718" lon="106.8059130">
+        <ele>14.9</ele>
+        <time>2026-10-27T00:05:58.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>29.0</ms:accuracyMeters>
+          <ms:speedMps>2.342</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2150953" lon="106.8059182">
+        <ele>14.9</ele>
+        <time>2026-10-27T00:05:59.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>25.5</ms:accuracyMeters>
+          <ms:speedMps>2.342</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2151524" lon="106.8059115">
+        <ele>14.9</ele>
+        <time>2026-10-27T00:06:02.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>28.5</ms:accuracyMeters>
+          <ms:speedMps>2.450</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2151691" lon="106.8059055">
+        <ele>14.9</ele>
+        <time>2026-10-27T00:06:03.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>20.8</ms:accuracyMeters>
+          <ms:speedMps>2.450</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2151858" lon="106.8058995">
+        <ele>14.8</ele>
+        <time>2026-10-27T00:06:04.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>25.6</ms:accuracyMeters>
+          <ms:speedMps>2.450</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2152026" lon="106.8058936">
+        <ele>14.8</ele>
+        <time>2026-10-27T00:06:05.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>16.5</ms:accuracyMeters>
+          <ms:speedMps>2.450</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2152193" lon="106.8058876">
+        <ele>14.8</ele>
+        <time>2026-10-27T00:06:06.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>10.5</ms:accuracyMeters>
+          <ms:speedMps>2.450</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2152360" lon="106.8058816">
+        <ele>14.8</ele>
+        <time>2026-10-27T00:06:07.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>29.5</ms:accuracyMeters>
+          <ms:speedMps>2.450</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2152528" lon="106.8058756">
+        <ele>14.8</ele>
+        <time>2026-10-27T00:06:08.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>16.4</ms:accuracyMeters>
+          <ms:speedMps>2.450</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2152695" lon="106.8058696">
+        <ele>14.8</ele>
+        <time>2026-10-27T00:06:09.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>17.8</ms:accuracyMeters>
+          <ms:speedMps>2.450</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2152862" lon="106.8058636">
+        <ele>14.8</ele>
+        <time>2026-10-27T00:06:10.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>26.5</ms:accuracyMeters>
+          <ms:speedMps>2.450</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2153115" lon="106.8058696">
+        <ele>14.8</ele>
+        <time>2026-10-27T00:06:11.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>10.9</ms:accuracyMeters>
+          <ms:speedMps>2.450</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2153622" lon="106.8058816">
+        <ele>14.7</ele>
+        <time>2026-10-27T00:06:13.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>19.3</ms:accuracyMeters>
+          <ms:speedMps>2.450</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2153875" lon="106.8058875">
+        <ele>14.7</ele>
+        <time>2026-10-27T00:06:14.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>9.4</ms:accuracyMeters>
+          <ms:speedMps>2.450</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2154128" lon="106.8058935">
+        <ele>14.7</ele>
+        <time>2026-10-27T00:06:15.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>23.8</ms:accuracyMeters>
+          <ms:speedMps>2.450</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2154381" lon="106.8058995">
+        <ele>14.7</ele>
+        <time>2026-10-27T00:06:16.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>11.8</ms:accuracyMeters>
+          <ms:speedMps>2.450</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2154634" lon="106.8059055">
+        <ele>14.7</ele>
+        <time>2026-10-27T00:06:17.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>24.8</ms:accuracyMeters>
+          <ms:speedMps>2.450</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2154887" lon="106.8059114">
+        <ele>14.7</ele>
+        <time>2026-10-27T00:06:18.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>23.6</ms:accuracyMeters>
+          <ms:speedMps>2.450</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2155140" lon="106.8059174">
+        <ele>14.7</ele>
+        <time>2026-10-27T00:06:19.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>23.6</ms:accuracyMeters>
+          <ms:speedMps>2.450</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2155393" lon="106.8059234">
+        <ele>14.7</ele>
+        <time>2026-10-27T00:06:20.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>23.1</ms:accuracyMeters>
+          <ms:speedMps>2.450</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2155627" lon="106.8059221">
+        <ele>14.6</ele>
+        <time>2026-10-27T00:06:21.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>19.8</ms:accuracyMeters>
+          <ms:speedMps>2.450</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2155861" lon="106.8059208">
+        <ele>14.6</ele>
+        <time>2026-10-27T00:06:22.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>26.5</ms:accuracyMeters>
+          <ms:speedMps>2.450</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2156095" lon="106.8059195">
+        <ele>14.6</ele>
+        <time>2026-10-27T00:06:23.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>10.8</ms:accuracyMeters>
+          <ms:speedMps>2.450</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2156329" lon="106.8059182">
+        <ele>14.6</ele>
+        <time>2026-10-27T00:06:24.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>26.9</ms:accuracyMeters>
+          <ms:speedMps>2.450</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2156563" lon="106.8059169">
+        <ele>14.6</ele>
+        <time>2026-10-27T00:06:25.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>7.2</ms:accuracyMeters>
+          <ms:speedMps>2.450</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2156797" lon="106.8059155">
+        <ele>14.6</ele>
+        <time>2026-10-27T00:06:26.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>7.2</ms:accuracyMeters>
+          <ms:speedMps>2.450</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2157031" lon="106.8059142">
+        <ele>14.6</ele>
+        <time>2026-10-27T00:06:27.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>24.6</ms:accuracyMeters>
+          <ms:speedMps>2.450</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2157265" lon="106.8059129">
+        <ele>14.6</ele>
+        <time>2026-10-27T00:06:28.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>29.0</ms:accuracyMeters>
+          <ms:speedMps>2.450</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2157499" lon="106.8059116">
+        <ele>14.5</ele>
+        <time>2026-10-27T00:06:29.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>8.8</ms:accuracyMeters>
+          <ms:speedMps>2.450</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2157733" lon="106.8059103">
+        <ele>14.5</ele>
+        <time>2026-10-27T00:06:30.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>8.6</ms:accuracyMeters>
+          <ms:speedMps>2.450</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2157968" lon="106.8059058">
+        <ele>14.5</ele>
+        <time>2026-10-27T00:06:31.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>13.0</ms:accuracyMeters>
+          <ms:speedMps>2.450</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2158203" lon="106.8059014">
+        <ele>14.5</ele>
+        <time>2026-10-27T00:06:32.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>25.5</ms:accuracyMeters>
+          <ms:speedMps>2.450</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2158438" lon="106.8058969">
+        <ele>14.5</ele>
+        <time>2026-10-27T00:06:33.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>7.8</ms:accuracyMeters>
+          <ms:speedMps>2.450</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2158673" lon="106.8058924">
+        <ele>14.5</ele>
+        <time>2026-10-27T00:06:34.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>25.8</ms:accuracyMeters>
+          <ms:speedMps>2.450</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2158908" lon="106.8058880">
+        <ele>14.5</ele>
+        <time>2026-10-27T00:06:35.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>25.0</ms:accuracyMeters>
+          <ms:speedMps>2.450</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2159143" lon="106.8058835">
+        <ele>14.5</ele>
+        <time>2026-10-27T00:06:36.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>29.2</ms:accuracyMeters>
+          <ms:speedMps>2.450</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2159378" lon="106.8058790">
+        <ele>14.4</ele>
+        <time>2026-10-27T00:06:37.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>8.6</ms:accuracyMeters>
+          <ms:speedMps>2.450</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2159613" lon="106.8058745">
+        <ele>14.4</ele>
+        <time>2026-10-27T00:06:38.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>5.6</ms:accuracyMeters>
+          <ms:speedMps>2.450</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2159848" lon="106.8058701">
+        <ele>14.4</ele>
+        <time>2026-10-27T00:06:39.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>5.9</ms:accuracyMeters>
+          <ms:speedMps>2.450</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2160083" lon="106.8058656">
+        <ele>14.4</ele>
+        <time>2026-10-27T00:06:40.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>27.2</ms:accuracyMeters>
+          <ms:speedMps>2.450</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2160215" lon="106.8058688">
+        <ele>14.4</ele>
+        <time>2026-10-27T00:06:41.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>9.5</ms:accuracyMeters>
+          <ms:speedMps>2.450</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2160347" lon="106.8058719">
+        <ele>14.4</ele>
+        <time>2026-10-27T00:06:42.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>10.4</ms:accuracyMeters>
+          <ms:speedMps>2.450</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2160479" lon="106.8058751">
+        <ele>14.4</ele>
+        <time>2026-10-27T00:06:43.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>27.1</ms:accuracyMeters>
+          <ms:speedMps>2.450</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2160611" lon="106.8058783">
+        <ele>14.4</ele>
+        <time>2026-10-27T00:06:44.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>22.0</ms:accuracyMeters>
+          <ms:speedMps>2.450</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2160743" lon="106.8058814">
+        <ele>14.3</ele>
+        <time>2026-10-27T00:06:45.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>11.0</ms:accuracyMeters>
+          <ms:speedMps>2.450</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2160875" lon="106.8058846">
+        <ele>14.3</ele>
+        <time>2026-10-27T00:06:46.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>14.3</ms:accuracyMeters>
+          <ms:speedMps>2.450</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2161007" lon="106.8058878">
+        <ele>14.3</ele>
+        <time>2026-10-27T00:06:47.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>6.7</ms:accuracyMeters>
+          <ms:speedMps>2.450</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2161139" lon="106.8058909">
+        <ele>14.3</ele>
+        <time>2026-10-27T00:06:48.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>11.7</ms:accuracyMeters>
+          <ms:speedMps>2.450</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2161271" lon="106.8058941">
+        <ele>14.3</ele>
+        <time>2026-10-27T00:06:49.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>21.2</ms:accuracyMeters>
+          <ms:speedMps>2.450</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2161403" lon="106.8058973">
+        <ele>14.3</ele>
+        <time>2026-10-27T00:06:50.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>15.9</ms:accuracyMeters>
+          <ms:speedMps>2.450</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2161640" lon="106.8059009">
+        <ele>14.3</ele>
+        <time>2026-10-27T00:06:51.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>27.3</ms:accuracyMeters>
+          <ms:speedMps>2.450</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2161878" lon="106.8059045">
+        <ele>14.3</ele>
+        <time>2026-10-27T00:06:52.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>18.3</ms:accuracyMeters>
+          <ms:speedMps>2.450</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2162115" lon="106.8059082">
+        <ele>14.2</ele>
+        <time>2026-10-27T00:06:53.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>29.5</ms:accuracyMeters>
+          <ms:speedMps>2.450</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2162353" lon="106.8059118">
+        <ele>14.2</ele>
+        <time>2026-10-27T00:06:54.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>21.2</ms:accuracyMeters>
+          <ms:speedMps>2.450</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2162590" lon="106.8059154">
+        <ele>14.2</ele>
+        <time>2026-10-27T00:06:55.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>29.9</ms:accuracyMeters>
+          <ms:speedMps>2.450</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2163065" lon="106.8059227">
+        <ele>14.2</ele>
+        <time>2026-10-27T00:06:57.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>9.9</ms:accuracyMeters>
+          <ms:speedMps>2.450</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2163303" lon="106.8059263">
+        <ele>14.2</ele>
+        <time>2026-10-27T00:06:58.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>23.5</ms:accuracyMeters>
+          <ms:speedMps>2.450</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2163540" lon="106.8059300">
+        <ele>14.2</ele>
+        <time>2026-10-27T00:06:59.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>13.0</ms:accuracyMeters>
+          <ms:speedMps>2.450</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2163778" lon="106.8059336">
+        <ele>14.2</ele>
+        <time>2026-10-27T00:07:00.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>10.5</ms:accuracyMeters>
+          <ms:speedMps>2.453</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2164054" lon="106.8059290">
+        <ele>14.2</ele>
+        <time>2026-10-27T00:07:01.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>25.6</ms:accuracyMeters>
+          <ms:speedMps>2.453</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2164330" lon="106.8059244">
+        <ele>14.1</ele>
+        <time>2026-10-27T00:07:02.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>6.8</ms:accuracyMeters>
+          <ms:speedMps>2.453</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2164607" lon="106.8059198">
+        <ele>14.1</ele>
+        <time>2026-10-27T00:07:03.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>9.5</ms:accuracyMeters>
+          <ms:speedMps>2.453</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2164883" lon="106.8059151">
+        <ele>14.1</ele>
+        <time>2026-10-27T00:07:04.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>12.8</ms:accuracyMeters>
+          <ms:speedMps>2.453</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2165159" lon="106.8059105">
+        <ele>14.1</ele>
+        <time>2026-10-27T00:07:05.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>24.2</ms:accuracyMeters>
+          <ms:speedMps>2.453</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2165436" lon="106.8059059">
+        <ele>14.1</ele>
+        <time>2026-10-27T00:07:06.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>7.5</ms:accuracyMeters>
+          <ms:speedMps>2.453</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2165712" lon="106.8059013">
+        <ele>14.1</ele>
+        <time>2026-10-27T00:07:07.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>9.4</ms:accuracyMeters>
+          <ms:speedMps>2.453</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2165988" lon="106.8058967">
+        <ele>14.1</ele>
+        <time>2026-10-27T00:07:08.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>11.5</ms:accuracyMeters>
+          <ms:speedMps>2.453</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2166265" lon="106.8058921">
+        <ele>14.1</ele>
+        <time>2026-10-27T00:07:09.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>14.3</ms:accuracyMeters>
+          <ms:speedMps>2.453</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2166541" lon="106.8058874">
+        <ele>14.0</ele>
+        <time>2026-10-27T00:07:10.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>28.8</ms:accuracyMeters>
+          <ms:speedMps>2.453</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2166710" lon="106.8058853">
+        <ele>14.0</ele>
+        <time>2026-10-27T00:07:11.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>20.7</ms:accuracyMeters>
+          <ms:speedMps>2.453</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2166878" lon="106.8058831">
+        <ele>14.0</ele>
+        <time>2026-10-27T00:07:12.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>12.9</ms:accuracyMeters>
+          <ms:speedMps>2.453</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2167384" lon="106.8058765">
+        <ele>14.0</ele>
+        <time>2026-10-27T00:07:15.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>16.0</ms:accuracyMeters>
+          <ms:speedMps>2.453</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2167553" lon="106.8058744">
+        <ele>14.0</ele>
+        <time>2026-10-27T00:07:16.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>11.8</ms:accuracyMeters>
+          <ms:speedMps>2.453</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2167722" lon="106.8058722">
+        <ele>14.0</ele>
+        <time>2026-10-27T00:07:17.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>25.8</ms:accuracyMeters>
+          <ms:speedMps>2.453</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2167890" lon="106.8058700">
+        <ele>13.9</ele>
+        <time>2026-10-27T00:07:18.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>25.3</ms:accuracyMeters>
+          <ms:speedMps>2.453</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2168059" lon="106.8058678">
+        <ele>13.9</ele>
+        <time>2026-10-27T00:07:19.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>5.7</ms:accuracyMeters>
+          <ms:speedMps>2.453</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2168228" lon="106.8058656">
+        <ele>13.9</ele>
+        <time>2026-10-27T00:07:20.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>22.4</ms:accuracyMeters>
+          <ms:speedMps>2.453</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2168523" lon="106.8058672">
+        <ele>13.9</ele>
+        <time>2026-10-27T00:07:21.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>19.4</ms:accuracyMeters>
+          <ms:speedMps>2.453</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2168818" lon="106.8058688">
+        <ele>13.9</ele>
+        <time>2026-10-27T00:07:22.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>13.9</ms:accuracyMeters>
+          <ms:speedMps>2.453</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2169113" lon="106.8058704">
+        <ele>13.9</ele>
+        <time>2026-10-27T00:07:23.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>16.3</ms:accuracyMeters>
+          <ms:speedMps>2.453</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2169408" lon="106.8058720">
+        <ele>13.9</ele>
+        <time>2026-10-27T00:07:24.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>24.8</ms:accuracyMeters>
+          <ms:speedMps>2.453</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2169703" lon="106.8058736">
+        <ele>13.9</ele>
+        <time>2026-10-27T00:07:25.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>13.4</ms:accuracyMeters>
+          <ms:speedMps>2.453</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2169998" lon="106.8058752">
+        <ele>13.8</ele>
+        <time>2026-10-27T00:07:26.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>23.5</ms:accuracyMeters>
+          <ms:speedMps>2.453</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2170294" lon="106.8058768">
+        <ele>13.8</ele>
+        <time>2026-10-27T00:07:27.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>11.6</ms:accuracyMeters>
+          <ms:speedMps>2.453</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2170589" lon="106.8058784">
+        <ele>13.8</ele>
+        <time>2026-10-27T00:07:28.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>26.9</ms:accuracyMeters>
+          <ms:speedMps>2.453</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2170884" lon="106.8058800">
+        <ele>13.8</ele>
+        <time>2026-10-27T00:07:29.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>19.9</ms:accuracyMeters>
+          <ms:speedMps>2.453</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2171179" lon="106.8058816">
+        <ele>13.8</ele>
+        <time>2026-10-27T00:07:30.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>14.7</ms:accuracyMeters>
+          <ms:speedMps>2.453</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2171328" lon="106.8058785">
+        <ele>13.8</ele>
+        <time>2026-10-27T00:07:31.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>24.7</ms:accuracyMeters>
+          <ms:speedMps>2.453</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2171476" lon="106.8058755">
+        <ele>13.8</ele>
+        <time>2026-10-27T00:07:32.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>11.8</ms:accuracyMeters>
+          <ms:speedMps>2.453</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2171625" lon="106.8058725">
+        <ele>13.8</ele>
+        <time>2026-10-27T00:07:33.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>27.1</ms:accuracyMeters>
+          <ms:speedMps>2.453</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2171773" lon="106.8058694">
+        <ele>13.7</ele>
+        <time>2026-10-27T00:07:34.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>26.6</ms:accuracyMeters>
+          <ms:speedMps>2.453</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2171922" lon="106.8058664">
+        <ele>13.7</ele>
+        <time>2026-10-27T00:07:35.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>21.6</ms:accuracyMeters>
+          <ms:speedMps>2.453</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2172071" lon="106.8058634">
+        <ele>13.7</ele>
+        <time>2026-10-27T00:07:36.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>15.2</ms:accuracyMeters>
+          <ms:speedMps>2.453</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2172219" lon="106.8058603">
+        <ele>13.7</ele>
+        <time>2026-10-27T00:07:37.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>12.8</ms:accuracyMeters>
+          <ms:speedMps>2.453</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2172368" lon="106.8058573">
+        <ele>13.7</ele>
+        <time>2026-10-27T00:07:38.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>7.8</ms:accuracyMeters>
+          <ms:speedMps>2.453</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2172517" lon="106.8058543">
+        <ele>13.7</ele>
+        <time>2026-10-27T00:07:39.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>6.6</ms:accuracyMeters>
+          <ms:speedMps>2.453</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2172665" lon="106.8058512">
+        <ele>13.7</ele>
+        <time>2026-10-27T00:07:40.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>28.0</ms:accuracyMeters>
+          <ms:speedMps>2.453</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2173222" lon="106.8058506">
+        <ele>13.6</ele>
+        <time>2026-10-27T00:07:42.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>13.5</ms:accuracyMeters>
+          <ms:speedMps>2.453</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2173500" lon="106.8058503">
+        <ele>13.6</ele>
+        <time>2026-10-27T00:07:43.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>15.1</ms:accuracyMeters>
+          <ms:speedMps>2.453</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2173778" lon="106.8058500">
+        <ele>13.6</ele>
+        <time>2026-10-27T00:07:44.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>21.7</ms:accuracyMeters>
+          <ms:speedMps>2.453</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2174057" lon="106.8058497">
+        <ele>13.6</ele>
+        <time>2026-10-27T00:07:45.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>18.1</ms:accuracyMeters>
+          <ms:speedMps>2.453</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2174613" lon="106.8058491">
+        <ele>13.6</ele>
+        <time>2026-10-27T00:07:47.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>17.9</ms:accuracyMeters>
+          <ms:speedMps>2.453</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2175170" lon="106.8058484">
+        <ele>13.6</ele>
+        <time>2026-10-27T00:07:49.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>5.4</ms:accuracyMeters>
+          <ms:speedMps>2.453</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2175448" lon="106.8058481">
+        <ele>13.6</ele>
+        <time>2026-10-27T00:07:50.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>24.3</ms:accuracyMeters>
+          <ms:speedMps>2.453</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2175619" lon="106.8058498">
+        <ele>13.5</ele>
+        <time>2026-10-27T00:07:51.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>17.6</ms:accuracyMeters>
+          <ms:speedMps>2.453</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2175791" lon="106.8058514">
+        <ele>13.5</ele>
+        <time>2026-10-27T00:07:52.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>9.0</ms:accuracyMeters>
+          <ms:speedMps>2.453</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2175962" lon="106.8058530">
+        <ele>13.5</ele>
+        <time>2026-10-27T00:07:53.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>29.2</ms:accuracyMeters>
+          <ms:speedMps>2.453</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2176133" lon="106.8058546">
+        <ele>13.5</ele>
+        <time>2026-10-27T00:07:54.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>20.5</ms:accuracyMeters>
+          <ms:speedMps>2.453</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2176304" lon="106.8058562">
+        <ele>13.5</ele>
+        <time>2026-10-27T00:07:55.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>9.4</ms:accuracyMeters>
+          <ms:speedMps>2.453</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2176476" lon="106.8058578">
+        <ele>13.5</ele>
+        <time>2026-10-27T00:07:56.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>23.0</ms:accuracyMeters>
+          <ms:speedMps>2.453</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2176647" lon="106.8058595">
+        <ele>13.5</ele>
+        <time>2026-10-27T00:07:57.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>8.3</ms:accuracyMeters>
+          <ms:speedMps>2.453</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2176818" lon="106.8058611">
+        <ele>13.5</ele>
+        <time>2026-10-27T00:07:58.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>22.2</ms:accuracyMeters>
+          <ms:speedMps>2.453</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2176990" lon="106.8058627">
+        <ele>13.4</ele>
+        <time>2026-10-27T00:07:59.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>16.4</ms:accuracyMeters>
+          <ms:speedMps>2.453</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2177161" lon="106.8058643">
+        <ele>13.4</ele>
+        <time>2026-10-27T00:08:00.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>23.0</ms:accuracyMeters>
+          <ms:speedMps>2.398</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2177351" lon="106.8058658">
+        <ele>13.4</ele>
+        <time>2026-10-27T00:08:01.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>13.4</ms:accuracyMeters>
+          <ms:speedMps>2.398</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2177731" lon="106.8058687">
+        <ele>13.4</ele>
+        <time>2026-10-27T00:08:03.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>15.6</ms:accuracyMeters>
+          <ms:speedMps>2.398</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2177921" lon="106.8058702">
+        <ele>13.4</ele>
+        <time>2026-10-27T00:08:04.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>18.1</ms:accuracyMeters>
+          <ms:speedMps>2.398</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2178111" lon="106.8058717">
+        <ele>13.4</ele>
+        <time>2026-10-27T00:08:05.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>25.4</ms:accuracyMeters>
+          <ms:speedMps>2.398</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2178301" lon="106.8058732">
+        <ele>13.4</ele>
+        <time>2026-10-27T00:08:06.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>29.7</ms:accuracyMeters>
+          <ms:speedMps>2.398</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2178491" lon="106.8058746">
+        <ele>13.3</ele>
+        <time>2026-10-27T00:08:07.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>10.5</ms:accuracyMeters>
+          <ms:speedMps>2.398</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2178681" lon="106.8058761">
+        <ele>13.3</ele>
+        <time>2026-10-27T00:08:08.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>5.9</ms:accuracyMeters>
+          <ms:speedMps>2.398</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2178871" lon="106.8058776">
+        <ele>13.3</ele>
+        <time>2026-10-27T00:08:09.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>5.5</ms:accuracyMeters>
+          <ms:speedMps>2.398</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2179269" lon="106.8058810">
+        <ele>13.3</ele>
+        <time>2026-10-27T00:08:11.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>12.7</ms:accuracyMeters>
+          <ms:speedMps>2.398</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2179477" lon="106.8058829">
+        <ele>13.3</ele>
+        <time>2026-10-27T00:08:12.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>22.7</ms:accuracyMeters>
+          <ms:speedMps>2.398</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2179893" lon="106.8058867">
+        <ele>13.3</ele>
+        <time>2026-10-27T00:08:14.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>21.3</ms:accuracyMeters>
+          <ms:speedMps>2.398</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2180102" lon="106.8058886">
+        <ele>13.2</ele>
+        <time>2026-10-27T00:08:15.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>25.3</ms:accuracyMeters>
+          <ms:speedMps>2.398</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2180310" lon="106.8058905">
+        <ele>13.2</ele>
+        <time>2026-10-27T00:08:16.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>22.3</ms:accuracyMeters>
+          <ms:speedMps>2.398</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2180726" lon="106.8058943">
+        <ele>13.2</ele>
+        <time>2026-10-27T00:08:18.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>20.2</ms:accuracyMeters>
+          <ms:speedMps>2.398</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2180934" lon="106.8058962">
+        <ele>13.2</ele>
+        <time>2026-10-27T00:08:19.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>25.7</ms:accuracyMeters>
+          <ms:speedMps>2.398</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2181142" lon="106.8058981">
+        <ele>13.2</ele>
+        <time>2026-10-27T00:08:20.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>19.0</ms:accuracyMeters>
+          <ms:speedMps>2.398</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2181736" lon="106.8059007">
+        <ele>13.2</ele>
+        <time>2026-10-27T00:08:22.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>16.4</ms:accuracyMeters>
+          <ms:speedMps>2.398</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2182033" lon="106.8059019">
+        <ele>13.2</ele>
+        <time>2026-10-27T00:08:23.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>20.8</ms:accuracyMeters>
+          <ms:speedMps>2.398</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2182330" lon="106.8059032">
+        <ele>13.1</ele>
+        <time>2026-10-27T00:08:24.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>17.1</ms:accuracyMeters>
+          <ms:speedMps>2.398</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2182627" lon="106.8059044">
+        <ele>13.1</ele>
+        <time>2026-10-27T00:08:25.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>21.1</ms:accuracyMeters>
+          <ms:speedMps>2.398</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2182924" lon="106.8059057">
+        <ele>13.1</ele>
+        <time>2026-10-27T00:08:26.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>29.3</ms:accuracyMeters>
+          <ms:speedMps>2.398</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2183221" lon="106.8059069">
+        <ele>13.1</ele>
+        <time>2026-10-27T00:08:27.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>17.8</ms:accuracyMeters>
+          <ms:speedMps>2.398</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2183518" lon="106.8059082">
+        <ele>13.1</ele>
+        <time>2026-10-27T00:08:28.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>12.3</ms:accuracyMeters>
+          <ms:speedMps>2.398</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2183816" lon="106.8059095">
+        <ele>13.1</ele>
+        <time>2026-10-27T00:08:29.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>21.1</ms:accuracyMeters>
+          <ms:speedMps>2.398</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184113" lon="106.8059107">
+        <ele>13.1</ele>
+        <time>2026-10-27T00:08:30.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>26.5</ms:accuracyMeters>
+          <ms:speedMps>2.398</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184257" lon="106.8059153">
+        <ele>13.1</ele>
+        <time>2026-10-27T00:08:31.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>25.9</ms:accuracyMeters>
+          <ms:speedMps>2.398</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184401" lon="106.8059200">
+        <ele>13.0</ele>
+        <time>2026-10-27T00:08:32.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>22.3</ms:accuracyMeters>
+          <ms:speedMps>2.398</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184545" lon="106.8059246">
+        <ele>13.0</ele>
+        <time>2026-10-27T00:08:33.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>25.6</ms:accuracyMeters>
+          <ms:speedMps>2.398</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184834" lon="106.8059338">
+        <ele>13.0</ele>
+        <time>2026-10-27T00:08:35.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>11.0</ms:accuracyMeters>
+          <ms:speedMps>2.398</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184932" lon="106.8059338">
+        <ele>13.0</ele>
+        <time>2026-10-27T00:08:36.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>23.2</ms:accuracyMeters>
+          <ms:speedMps>2.398</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184861" lon="106.8059167">
+        <ele>13.0</ele>
+        <time>2026-10-27T00:08:37.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>21.1</ms:accuracyMeters>
+          <ms:speedMps>2.398</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184789" lon="106.8058996">
+        <ele>13.0</ele>
+        <time>2026-10-27T00:08:38.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>7.1</ms:accuracyMeters>
+          <ms:speedMps>2.398</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184718" lon="106.8058825">
+        <ele>13.0</ele>
+        <time>2026-10-27T00:08:39.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>25.2</ms:accuracyMeters>
+          <ms:speedMps>2.398</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184617" lon="106.8058106">
+        <ele>13.0</ele>
+        <time>2026-10-27T00:08:42.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>19.5</ms:accuracyMeters>
+          <ms:speedMps>2.398</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184603" lon="106.8057831">
+        <ele>13.0</ele>
+        <time>2026-10-27T00:08:43.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>11.5</ms:accuracyMeters>
+          <ms:speedMps>2.398</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184588" lon="106.8057557">
+        <ele>13.0</ele>
+        <time>2026-10-27T00:08:44.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>26.0</ms:accuracyMeters>
+          <ms:speedMps>2.398</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184573" lon="106.8057282">
+        <ele>12.9</ele>
+        <time>2026-10-27T00:08:45.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>25.2</ms:accuracyMeters>
+          <ms:speedMps>2.398</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184559" lon="106.8057008">
+        <ele>12.9</ele>
+        <time>2026-10-27T00:08:46.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>6.8</ms:accuracyMeters>
+          <ms:speedMps>2.398</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184544" lon="106.8056733">
+        <ele>12.9</ele>
+        <time>2026-10-27T00:08:47.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>14.9</ms:accuracyMeters>
+          <ms:speedMps>2.398</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184530" lon="106.8056459">
+        <ele>12.9</ele>
+        <time>2026-10-27T00:08:48.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>19.0</ms:accuracyMeters>
+          <ms:speedMps>2.398</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184515" lon="106.8056184">
+        <ele>12.9</ele>
+        <time>2026-10-27T00:08:49.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>15.7</ms:accuracyMeters>
+          <ms:speedMps>2.398</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184500" lon="106.8055910">
+        <ele>12.9</ele>
+        <time>2026-10-27T00:08:50.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>28.4</ms:accuracyMeters>
+          <ms:speedMps>2.398</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184539" lon="106.8055653">
+        <ele>12.9</ele>
+        <time>2026-10-27T00:08:51.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>26.6</ms:accuracyMeters>
+          <ms:speedMps>2.398</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184577" lon="106.8055396">
+        <ele>12.9</ele>
+        <time>2026-10-27T00:08:52.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>16.8</ms:accuracyMeters>
+          <ms:speedMps>2.398</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184616" lon="106.8055139">
+        <ele>12.9</ele>
+        <time>2026-10-27T00:08:53.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>13.3</ms:accuracyMeters>
+          <ms:speedMps>2.398</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184654" lon="106.8054882">
+        <ele>12.9</ele>
+        <time>2026-10-27T00:08:54.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>27.9</ms:accuracyMeters>
+          <ms:speedMps>2.398</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184692" lon="106.8054625">
+        <ele>12.9</ele>
+        <time>2026-10-27T00:08:55.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>5.2</ms:accuracyMeters>
+          <ms:speedMps>2.398</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184731" lon="106.8054368">
+        <ele>12.9</ele>
+        <time>2026-10-27T00:08:56.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>5.4</ms:accuracyMeters>
+          <ms:speedMps>2.398</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184769" lon="106.8054111">
+        <ele>12.9</ele>
+        <time>2026-10-27T00:08:57.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>17.3</ms:accuracyMeters>
+          <ms:speedMps>2.398</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184808" lon="106.8053854">
+        <ele>12.9</ele>
+        <time>2026-10-27T00:08:58.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>9.4</ms:accuracyMeters>
+          <ms:speedMps>2.398</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184884" lon="106.8053340">
+        <ele>12.9</ele>
+        <time>2026-10-27T00:09:00.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>10.1</ms:accuracyMeters>
+          <ms:speedMps>2.306</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184914" lon="106.8053208">
+        <ele>12.9</ele>
+        <time>2026-10-27T00:09:01.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>19.8</ms:accuracyMeters>
+          <ms:speedMps>2.306</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184943" lon="106.8053075">
+        <ele>12.9</ele>
+        <time>2026-10-27T00:09:02.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>8.3</ms:accuracyMeters>
+          <ms:speedMps>2.306</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184973" lon="106.8052943">
+        <ele>12.8</ele>
+        <time>2026-10-27T00:09:03.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>5.6</ms:accuracyMeters>
+          <ms:speedMps>2.306</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2185003" lon="106.8052810">
+        <ele>12.8</ele>
+        <time>2026-10-27T00:09:04.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>11.4</ms:accuracyMeters>
+          <ms:speedMps>2.306</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2185032" lon="106.8052678">
+        <ele>12.8</ele>
+        <time>2026-10-27T00:09:05.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>18.3</ms:accuracyMeters>
+          <ms:speedMps>2.306</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2185062" lon="106.8052546">
+        <ele>12.8</ele>
+        <time>2026-10-27T00:09:06.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>7.8</ms:accuracyMeters>
+          <ms:speedMps>2.306</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2185091" lon="106.8052413">
+        <ele>12.8</ele>
+        <time>2026-10-27T00:09:07.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>29.8</ms:accuracyMeters>
+          <ms:speedMps>2.306</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2185121" lon="106.8052281">
+        <ele>12.8</ele>
+        <time>2026-10-27T00:09:08.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>18.7</ms:accuracyMeters>
+          <ms:speedMps>2.306</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2185150" lon="106.8052149">
+        <ele>12.8</ele>
+        <time>2026-10-27T00:09:09.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>29.4</ms:accuracyMeters>
+          <ms:speedMps>2.306</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2185180" lon="106.8052016">
+        <ele>12.8</ele>
+        <time>2026-10-27T00:09:10.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>15.5</ms:accuracyMeters>
+          <ms:speedMps>2.306</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2185184" lon="106.8051832">
+        <ele>12.8</ele>
+        <time>2026-10-27T00:09:11.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>15.8</ms:accuracyMeters>
+          <ms:speedMps>2.306</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2185188" lon="106.8051648">
+        <ele>12.8</ele>
+        <time>2026-10-27T00:09:12.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>20.4</ms:accuracyMeters>
+          <ms:speedMps>2.306</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2185192" lon="106.8051464">
+        <ele>12.8</ele>
+        <time>2026-10-27T00:09:13.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>27.6</ms:accuracyMeters>
+          <ms:speedMps>2.306</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2185197" lon="106.8051280">
+        <ele>12.8</ele>
+        <time>2026-10-27T00:09:14.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>14.2</ms:accuracyMeters>
+          <ms:speedMps>2.306</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2185201" lon="106.8051096">
+        <ele>12.8</ele>
+        <time>2026-10-27T00:09:15.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>25.1</ms:accuracyMeters>
+          <ms:speedMps>2.306</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2185205" lon="106.8050912">
+        <ele>12.8</ele>
+        <time>2026-10-27T00:09:16.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>8.1</ms:accuracyMeters>
+          <ms:speedMps>2.306</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2185209" lon="106.8050728">
+        <ele>12.8</ele>
+        <time>2026-10-27T00:09:17.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>21.8</ms:accuracyMeters>
+          <ms:speedMps>2.306</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2185213" lon="106.8050544">
+        <ele>12.8</ele>
+        <time>2026-10-27T00:09:18.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>25.9</ms:accuracyMeters>
+          <ms:speedMps>2.306</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2185217" lon="106.8050360">
+        <ele>12.8</ele>
+        <time>2026-10-27T00:09:19.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>19.9</ms:accuracyMeters>
+          <ms:speedMps>2.306</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2185222" lon="106.8050175">
+        <ele>12.8</ele>
+        <time>2026-10-27T00:09:20.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>29.1</ms:accuracyMeters>
+          <ms:speedMps>2.306</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2185144" lon="106.8049939">
+        <ele>12.7</ele>
+        <time>2026-10-27T00:09:21.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>29.7</ms:accuracyMeters>
+          <ms:speedMps>2.306</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2185067" lon="106.8049703">
+        <ele>12.7</ele>
+        <time>2026-10-27T00:09:22.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>21.4</ms:accuracyMeters>
+          <ms:speedMps>2.306</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184989" lon="106.8049467">
+        <ele>12.7</ele>
+        <time>2026-10-27T00:09:23.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>20.0</ms:accuracyMeters>
+          <ms:speedMps>2.306</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184912" lon="106.8049230">
+        <ele>12.7</ele>
+        <time>2026-10-27T00:09:24.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>16.6</ms:accuracyMeters>
+          <ms:speedMps>2.306</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184757" lon="106.8048758">
+        <ele>12.7</ele>
+        <time>2026-10-27T00:09:26.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>18.3</ms:accuracyMeters>
+          <ms:speedMps>2.306</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184680" lon="106.8048522">
+        <ele>12.7</ele>
+        <time>2026-10-27T00:09:27.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>28.7</ms:accuracyMeters>
+          <ms:speedMps>2.306</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184603" lon="106.8048285">
+        <ele>12.7</ele>
+        <time>2026-10-27T00:09:28.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>13.8</ms:accuracyMeters>
+          <ms:speedMps>2.306</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184525" lon="106.8048049">
+        <ele>12.7</ele>
+        <time>2026-10-27T00:09:29.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>28.8</ms:accuracyMeters>
+          <ms:speedMps>2.306</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184448" lon="106.8047813">
+        <ele>12.7</ele>
+        <time>2026-10-27T00:09:30.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>8.4</ms:accuracyMeters>
+          <ms:speedMps>2.306</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184556" lon="106.8047387">
+        <ele>12.7</ele>
+        <time>2026-10-27T00:09:32.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>16.8</ms:accuracyMeters>
+          <ms:speedMps>2.306</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184609" lon="106.8047174">
+        <ele>12.7</ele>
+        <time>2026-10-27T00:09:33.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>15.7</ms:accuracyMeters>
+          <ms:speedMps>2.306</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184663" lon="106.8046961">
+        <ele>12.7</ele>
+        <time>2026-10-27T00:09:34.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>22.6</ms:accuracyMeters>
+          <ms:speedMps>2.306</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184771" lon="106.8046535">
+        <ele>12.7</ele>
+        <time>2026-10-27T00:09:36.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>5.9</ms:accuracyMeters>
+          <ms:speedMps>2.306</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184824" lon="106.8046322">
+        <ele>12.7</ele>
+        <time>2026-10-27T00:09:37.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>5.6</ms:accuracyMeters>
+          <ms:speedMps>2.306</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184878" lon="106.8046109">
+        <ele>12.7</ele>
+        <time>2026-10-27T00:09:38.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>25.9</ms:accuracyMeters>
+          <ms:speedMps>2.306</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184932" lon="106.8045896">
+        <ele>12.6</ele>
+        <time>2026-10-27T00:09:39.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>19.9</ms:accuracyMeters>
+          <ms:speedMps>2.306</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184985" lon="106.8045683">
+        <ele>12.6</ele>
+        <time>2026-10-27T00:09:40.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>7.6</ms:accuracyMeters>
+          <ms:speedMps>2.306</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184972" lon="106.8045395">
+        <ele>12.6</ele>
+        <time>2026-10-27T00:09:41.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>16.1</ms:accuracyMeters>
+          <ms:speedMps>2.306</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184959" lon="106.8045107">
+        <ele>12.6</ele>
+        <time>2026-10-27T00:09:42.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>13.1</ms:accuracyMeters>
+          <ms:speedMps>2.306</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184945" lon="106.8044818">
+        <ele>12.6</ele>
+        <time>2026-10-27T00:09:43.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>28.9</ms:accuracyMeters>
+          <ms:speedMps>2.306</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184932" lon="106.8044530">
+        <ele>12.6</ele>
+        <time>2026-10-27T00:09:44.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>21.7</ms:accuracyMeters>
+          <ms:speedMps>2.306</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184919" lon="106.8044241">
+        <ele>12.6</ele>
+        <time>2026-10-27T00:09:45.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>16.2</ms:accuracyMeters>
+          <ms:speedMps>2.306</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184892" lon="106.8043665">
+        <ele>12.6</ele>
+        <time>2026-10-27T00:09:47.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>22.6</ms:accuracyMeters>
+          <ms:speedMps>2.306</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184878" lon="106.8043376">
+        <ele>12.6</ele>
+        <time>2026-10-27T00:09:48.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>13.2</ms:accuracyMeters>
+          <ms:speedMps>2.306</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184865" lon="106.8043088">
+        <ele>12.6</ele>
+        <time>2026-10-27T00:09:49.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>17.6</ms:accuracyMeters>
+          <ms:speedMps>2.306</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184852" lon="106.8042800">
+        <ele>12.6</ele>
+        <time>2026-10-27T00:09:50.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>6.1</ms:accuracyMeters>
+          <ms:speedMps>2.306</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184894" lon="106.8042628">
+        <ele>12.6</ele>
+        <time>2026-10-27T00:09:51.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>26.6</ms:accuracyMeters>
+          <ms:speedMps>2.306</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184936" lon="106.8042457">
+        <ele>12.6</ele>
+        <time>2026-10-27T00:09:52.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>26.3</ms:accuracyMeters>
+          <ms:speedMps>2.306</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184978" lon="106.8042286">
+        <ele>12.6</ele>
+        <time>2026-10-27T00:09:53.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>22.5</ms:accuracyMeters>
+          <ms:speedMps>2.306</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2185021" lon="106.8042115">
+        <ele>12.6</ele>
+        <time>2026-10-27T00:09:54.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>21.2</ms:accuracyMeters>
+          <ms:speedMps>2.306</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2185063" lon="106.8041944">
+        <ele>12.6</ele>
+        <time>2026-10-27T00:09:55.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>18.8</ms:accuracyMeters>
+          <ms:speedMps>2.306</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2185105" lon="106.8041772">
+        <ele>12.6</ele>
+        <time>2026-10-27T00:09:56.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>28.9</ms:accuracyMeters>
+          <ms:speedMps>2.306</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2185147" lon="106.8041601">
+        <ele>12.5</ele>
+        <time>2026-10-27T00:09:57.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>10.8</ms:accuracyMeters>
+          <ms:speedMps>2.306</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2185190" lon="106.8041430">
+        <ele>12.5</ele>
+        <time>2026-10-27T00:09:58.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>13.6</ms:accuracyMeters>
+          <ms:speedMps>2.306</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2185232" lon="106.8041259">
+        <ele>12.5</ele>
+        <time>2026-10-27T00:09:59.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>8.3</ms:accuracyMeters>
+          <ms:speedMps>2.306</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2185274" lon="106.8041087">
+        <ele>12.5</ele>
+        <time>2026-10-27T00:10:00.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>16.7</ms:accuracyMeters>
+          <ms:speedMps>2.420</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2185185" lon="106.8040891">
+        <ele>12.5</ele>
+        <time>2026-10-27T00:10:01.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>12.2</ms:accuracyMeters>
+          <ms:speedMps>2.420</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2185095" lon="106.8040695">
+        <ele>12.5</ele>
+        <time>2026-10-27T00:10:02.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>17.7</ms:accuracyMeters>
+          <ms:speedMps>2.420</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2185006" lon="106.8040499">
+        <ele>12.5</ele>
+        <time>2026-10-27T00:10:03.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>9.6</ms:accuracyMeters>
+          <ms:speedMps>2.420</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184917" lon="106.8040303">
+        <ele>12.5</ele>
+        <time>2026-10-27T00:10:04.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>29.1</ms:accuracyMeters>
+          <ms:speedMps>2.420</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184827" lon="106.8040107">
+        <ele>12.5</ele>
+        <time>2026-10-27T00:10:05.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>23.4</ms:accuracyMeters>
+          <ms:speedMps>2.420</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184738" lon="106.8039911">
+        <ele>12.5</ele>
+        <time>2026-10-27T00:10:06.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>16.9</ms:accuracyMeters>
+          <ms:speedMps>2.420</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184649" lon="106.8039715">
+        <ele>12.5</ele>
+        <time>2026-10-27T00:10:07.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>11.6</ms:accuracyMeters>
+          <ms:speedMps>2.420</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184559" lon="106.8039519">
+        <ele>12.5</ele>
+        <time>2026-10-27T00:10:08.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>20.9</ms:accuracyMeters>
+          <ms:speedMps>2.420</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184470" lon="106.8039323">
+        <ele>12.5</ele>
+        <time>2026-10-27T00:10:09.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>12.0</ms:accuracyMeters>
+          <ms:speedMps>2.420</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184380" lon="106.8039127">
+        <ele>12.5</ele>
+        <time>2026-10-27T00:10:10.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>21.6</ms:accuracyMeters>
+          <ms:speedMps>2.420</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184414" lon="106.8038860">
+        <ele>12.5</ele>
+        <time>2026-10-27T00:10:11.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>14.6</ms:accuracyMeters>
+          <ms:speedMps>2.420</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184448" lon="106.8038593">
+        <ele>12.5</ele>
+        <time>2026-10-27T00:10:12.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>9.9</ms:accuracyMeters>
+          <ms:speedMps>2.420</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184515" lon="106.8038058">
+        <ele>12.5</ele>
+        <time>2026-10-27T00:10:14.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>22.5</ms:accuracyMeters>
+          <ms:speedMps>2.420</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184548" lon="106.8037791">
+        <ele>12.4</ele>
+        <time>2026-10-27T00:10:15.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>5.3</ms:accuracyMeters>
+          <ms:speedMps>2.420</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184616" lon="106.8037257">
+        <ele>12.4</ele>
+        <time>2026-10-27T00:10:17.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>20.6</ms:accuracyMeters>
+          <ms:speedMps>2.420</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184649" lon="106.8036990">
+        <ele>12.4</ele>
+        <time>2026-10-27T00:10:18.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>23.1</ms:accuracyMeters>
+          <ms:speedMps>2.420</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184683" lon="106.8036723">
+        <ele>12.4</ele>
+        <time>2026-10-27T00:10:19.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>10.2</ms:accuracyMeters>
+          <ms:speedMps>2.420</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184716" lon="106.8036456">
+        <ele>12.4</ele>
+        <time>2026-10-27T00:10:20.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>17.0</ms:accuracyMeters>
+          <ms:speedMps>2.420</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184707" lon="106.8036293">
+        <ele>12.4</ele>
+        <time>2026-10-27T00:10:21.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>12.8</ms:accuracyMeters>
+          <ms:speedMps>2.420</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184698" lon="106.8036129">
+        <ele>12.4</ele>
+        <time>2026-10-27T00:10:22.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>28.5</ms:accuracyMeters>
+          <ms:speedMps>2.420</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184689" lon="106.8035966">
+        <ele>12.4</ele>
+        <time>2026-10-27T00:10:23.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>8.4</ms:accuracyMeters>
+          <ms:speedMps>2.420</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184680" lon="106.8035803">
+        <ele>12.4</ele>
+        <time>2026-10-27T00:10:24.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>25.5</ms:accuracyMeters>
+          <ms:speedMps>2.420</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184671" lon="106.8035640">
+        <ele>12.4</ele>
+        <time>2026-10-27T00:10:25.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>7.2</ms:accuracyMeters>
+          <ms:speedMps>2.420</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184662" lon="106.8035477">
+        <ele>12.4</ele>
+        <time>2026-10-27T00:10:26.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>16.2</ms:accuracyMeters>
+          <ms:speedMps>2.420</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184653" lon="106.8035314">
+        <ele>12.4</ele>
+        <time>2026-10-27T00:10:27.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>20.7</ms:accuracyMeters>
+          <ms:speedMps>2.420</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184645" lon="106.8035150">
+        <ele>12.4</ele>
+        <time>2026-10-27T00:10:28.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>24.3</ms:accuracyMeters>
+          <ms:speedMps>2.420</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184636" lon="106.8034987">
+        <ele>12.4</ele>
+        <time>2026-10-27T00:10:29.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>17.6</ms:accuracyMeters>
+          <ms:speedMps>2.420</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184673" lon="106.8034628">
+        <ele>12.4</ele>
+        <time>2026-10-27T00:10:31.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>19.2</ms:accuracyMeters>
+          <ms:speedMps>2.420</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184720" lon="106.8034432">
+        <ele>12.3</ele>
+        <time>2026-10-27T00:10:32.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>7.5</ms:accuracyMeters>
+          <ms:speedMps>2.420</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184766" lon="106.8034235">
+        <ele>12.3</ele>
+        <time>2026-10-27T00:10:33.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>15.2</ms:accuracyMeters>
+          <ms:speedMps>2.420</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184812" lon="106.8034039">
+        <ele>12.3</ele>
+        <time>2026-10-27T00:10:34.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>15.2</ms:accuracyMeters>
+          <ms:speedMps>2.420</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184859" lon="106.8033843">
+        <ele>12.3</ele>
+        <time>2026-10-27T00:10:35.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>28.0</ms:accuracyMeters>
+          <ms:speedMps>2.420</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184905" lon="106.8033647">
+        <ele>12.3</ele>
+        <time>2026-10-27T00:10:36.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>8.1</ms:accuracyMeters>
+          <ms:speedMps>2.420</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184952" lon="106.8033450">
+        <ele>12.3</ele>
+        <time>2026-10-27T00:10:37.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>8.1</ms:accuracyMeters>
+          <ms:speedMps>2.420</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2185045" lon="106.8033058">
+        <ele>12.3</ele>
+        <time>2026-10-27T00:10:39.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>19.8</ms:accuracyMeters>
+          <ms:speedMps>2.420</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2185091" lon="106.8032862">
+        <ele>12.3</ele>
+        <time>2026-10-27T00:10:40.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>20.3</ms:accuracyMeters>
+          <ms:speedMps>2.420</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2185058" lon="106.8032586">
+        <ele>12.3</ele>
+        <time>2026-10-27T00:10:41.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>27.7</ms:accuracyMeters>
+          <ms:speedMps>2.420</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184958" lon="106.8031758">
+        <ele>12.3</ele>
+        <time>2026-10-27T00:10:44.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>22.1</ms:accuracyMeters>
+          <ms:speedMps>2.420</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184924" lon="106.8031482">
+        <ele>12.3</ele>
+        <time>2026-10-27T00:10:45.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>27.0</ms:accuracyMeters>
+          <ms:speedMps>2.420</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184891" lon="106.8031207">
+        <ele>12.3</ele>
+        <time>2026-10-27T00:10:46.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>8.9</ms:accuracyMeters>
+          <ms:speedMps>2.420</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184857" lon="106.8030931">
+        <ele>12.3</ele>
+        <time>2026-10-27T00:10:47.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>27.7</ms:accuracyMeters>
+          <ms:speedMps>2.420</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184824" lon="106.8030655">
+        <ele>12.3</ele>
+        <time>2026-10-27T00:10:48.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>11.9</ms:accuracyMeters>
+          <ms:speedMps>2.420</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184790" lon="106.8030379">
+        <ele>12.3</ele>
+        <time>2026-10-27T00:10:49.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>12.1</ms:accuracyMeters>
+          <ms:speedMps>2.420</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184757" lon="106.8030103">
+        <ele>12.2</ele>
+        <time>2026-10-27T00:10:50.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>13.1</ms:accuracyMeters>
+          <ms:speedMps>2.420</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184753" lon="106.8029942">
+        <ele>12.2</ele>
+        <time>2026-10-27T00:10:51.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>17.8</ms:accuracyMeters>
+          <ms:speedMps>2.420</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184744" lon="106.8029620">
+        <ele>12.2</ele>
+        <time>2026-10-27T00:10:53.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>9.4</ms:accuracyMeters>
+          <ms:speedMps>2.420</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184732" lon="106.8029137">
+        <ele>12.2</ele>
+        <time>2026-10-27T00:10:56.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>10.6</ms:accuracyMeters>
+          <ms:speedMps>2.420</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184727" lon="106.8028976">
+        <ele>12.2</ele>
+        <time>2026-10-27T00:10:57.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>7.6</ms:accuracyMeters>
+          <ms:speedMps>2.420</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184723" lon="106.8028815">
+        <ele>12.2</ele>
+        <time>2026-10-27T00:10:58.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>8.1</ms:accuracyMeters>
+          <ms:speedMps>2.420</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184719" lon="106.8028654">
+        <ele>12.2</ele>
+        <time>2026-10-27T00:10:59.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>14.3</ms:accuracyMeters>
+          <ms:speedMps>2.420</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184715" lon="106.8028493">
+        <ele>12.2</ele>
+        <time>2026-10-27T00:11:00.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>12.7</ms:accuracyMeters>
+          <ms:speedMps>2.273</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184743" lon="106.8028277">
+        <ele>12.2</ele>
+        <time>2026-10-27T00:11:01.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>8.3</ms:accuracyMeters>
+          <ms:speedMps>2.273</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184771" lon="106.8028060">
+        <ele>12.2</ele>
+        <time>2026-10-27T00:11:02.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>20.1</ms:accuracyMeters>
+          <ms:speedMps>2.273</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184799" lon="106.8027843">
+        <ele>12.2</ele>
+        <time>2026-10-27T00:11:03.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>23.2</ms:accuracyMeters>
+          <ms:speedMps>2.273</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184827" lon="106.8027626">
+        <ele>12.2</ele>
+        <time>2026-10-27T00:11:04.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>17.3</ms:accuracyMeters>
+          <ms:speedMps>2.273</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184856" lon="106.8027409">
+        <ele>12.2</ele>
+        <time>2026-10-27T00:11:05.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>18.7</ms:accuracyMeters>
+          <ms:speedMps>2.273</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184884" lon="106.8027192">
+        <ele>12.2</ele>
+        <time>2026-10-27T00:11:06.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>6.8</ms:accuracyMeters>
+          <ms:speedMps>2.273</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184912" lon="106.8026975">
+        <ele>12.1</ele>
+        <time>2026-10-27T00:11:07.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>15.0</ms:accuracyMeters>
+          <ms:speedMps>2.273</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184940" lon="106.8026759">
+        <ele>12.1</ele>
+        <time>2026-10-27T00:11:08.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>9.9</ms:accuracyMeters>
+          <ms:speedMps>2.273</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184968" lon="106.8026542">
+        <ele>12.1</ele>
+        <time>2026-10-27T00:11:09.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>21.4</ms:accuracyMeters>
+          <ms:speedMps>2.273</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184996" lon="106.8026325">
+        <ele>12.1</ele>
+        <time>2026-10-27T00:11:10.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>27.7</ms:accuracyMeters>
+          <ms:speedMps>2.273</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184946" lon="106.8026096">
+        <ele>12.1</ele>
+        <time>2026-10-27T00:11:11.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>24.3</ms:accuracyMeters>
+          <ms:speedMps>2.273</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184896" lon="106.8025868">
+        <ele>12.1</ele>
+        <time>2026-10-27T00:11:12.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>12.1</ms:accuracyMeters>
+          <ms:speedMps>2.273</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184846" lon="106.8025639">
+        <ele>12.1</ele>
+        <time>2026-10-27T00:11:13.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>29.8</ms:accuracyMeters>
+          <ms:speedMps>2.273</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184795" lon="106.8025410">
+        <ele>12.1</ele>
+        <time>2026-10-27T00:11:14.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>18.2</ms:accuracyMeters>
+          <ms:speedMps>2.273</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184745" lon="106.8025182">
+        <ele>12.1</ele>
+        <time>2026-10-27T00:11:15.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>11.5</ms:accuracyMeters>
+          <ms:speedMps>2.273</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184695" lon="106.8024953">
+        <ele>12.1</ele>
+        <time>2026-10-27T00:11:16.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>26.8</ms:accuracyMeters>
+          <ms:speedMps>2.273</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184645" lon="106.8024724">
+        <ele>12.1</ele>
+        <time>2026-10-27T00:11:17.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>7.8</ms:accuracyMeters>
+          <ms:speedMps>2.273</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184544" lon="106.8024267">
+        <ele>12.1</ele>
+        <time>2026-10-27T00:11:19.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>24.3</ms:accuracyMeters>
+          <ms:speedMps>2.273</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184494" lon="106.8024038">
+        <ele>12.1</ele>
+        <time>2026-10-27T00:11:20.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>7.0</ms:accuracyMeters>
+          <ms:speedMps>2.273</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184555" lon="106.8023763">
+        <ele>12.1</ele>
+        <time>2026-10-27T00:11:21.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>21.6</ms:accuracyMeters>
+          <ms:speedMps>2.273</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184616" lon="106.8023488">
+        <ele>12.1</ele>
+        <time>2026-10-27T00:11:22.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>17.3</ms:accuracyMeters>
+          <ms:speedMps>2.273</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184677" lon="106.8023213">
+        <ele>12.1</ele>
+        <time>2026-10-27T00:11:23.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>9.7</ms:accuracyMeters>
+          <ms:speedMps>2.273</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184739" lon="106.8022937">
+        <ele>12.1</ele>
+        <time>2026-10-27T00:11:24.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>11.7</ms:accuracyMeters>
+          <ms:speedMps>2.273</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184861" lon="106.8022387">
+        <ele>12.0</ele>
+        <time>2026-10-27T00:11:26.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>15.7</ms:accuracyMeters>
+          <ms:speedMps>2.273</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184922" lon="106.8022112">
+        <ele>12.0</ele>
+        <time>2026-10-27T00:11:27.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>18.0</ms:accuracyMeters>
+          <ms:speedMps>2.273</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2184983" lon="106.8021836">
+        <ele>12.0</ele>
+        <time>2026-10-27T00:11:28.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>14.3</ms:accuracyMeters>
+          <ms:speedMps>2.273</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2185044" lon="106.8021561">
+        <ele>12.0</ele>
+        <time>2026-10-27T00:11:29.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>11.7</ms:accuracyMeters>
+          <ms:speedMps>2.273</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2185128" lon="106.8021080">
+        <ele>12.0</ele>
+        <time>2026-10-27T00:11:31.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>23.9</ms:accuracyMeters>
+          <ms:speedMps>2.273</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2185152" lon="106.8020875">
+        <ele>12.0</ele>
+        <time>2026-10-27T00:11:32.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>18.9</ms:accuracyMeters>
+          <ms:speedMps>2.273</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+      <trkpt lat="-6.2185175" lon="106.8020670">
+        <ele>12.0</ele>
+        <time>2026-10-27T00:11:33.000Z</time>
+        <extensions>
+          <ms:accuracyMeters>9.9</ms:accuracyMeters>
+          <ms:speedMps>2.273</ms:speedMps>
+          <ms:mocked>false</ms:mocked>
+        </extensions>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

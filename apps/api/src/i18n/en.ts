@@ -1,0 +1,27 @@
+export const enMessages = {
+  errors: {
+    idempotencyInProgress: "A request with this key is still being processed.",
+    idempotencyKeyReused: "This idempotency key was already used with different data.",
+    idempotencyKeyRequired: "Idempotency-Key must be a UUID.",
+    idempotencyKeyInvalid: "Idempotency-Key must be a UUID.",
+    emailTaken: "This email is already registered.",
+    invalidCredentials: "Email or password is incorrect.",
+    itemNotOwned: "The item is not owned or has no stock remaining.",
+    loadoutConflict: "The item does not fit the selected slot or loadout.",
+    rateLimited: "Too many requests. Try again later.",
+    refreshTokenReused:
+      "The session was revoked because an old refresh token was reused.",
+    tokenExpired: "The access token has expired.",
+    internal: "An unexpected error occurred.",
+    notFound: "Resource not found.",
+    activeRunExists: "Finish or stop your current run before requesting another route.",
+    regenerateLimitReached: "You have used the route replacement limit for today.",
+    routeNotReady: "This route is still being prepared.",
+    routeExpired: "This route has expired.",
+    routeUnavailable: "A route is not available right now.",
+    alreadyReported: "You already reported this route.",
+    serviceUnavailable: "Service is not ready.",
+    unauthorized: "A valid bearer token is required.",
+    validation: "The request data is invalid.",
+  },
+} as const;

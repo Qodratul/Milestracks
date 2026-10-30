@@ -1,0 +1,28 @@
+[
+  {
+    "name": "valid boost and modifier",
+    "input": {
+      "loadout": { "boostItemCode": "exp_boost", "modifierItemCode": "gain_more" }
+    },
+    "expected": { "valid": true }
+  },
+  {
+    "name": "empty loadout",
+    "input": {
+      "loadout": { "boostItemCode": null, "modifierItemCode": null }
+    },
+    "expected": { "valid": true }
+  },
+  {
+    "name": "item in wrong slot",
+    "input": {
+      "loadout": { "boostItemCode": null, "modifierItemCode": "exp_boost" }
+    },
+    "expected": {
+      "valid": false,
+      "reason": "wrong_slot",
+      "slot": "modifier",
+      "itemCode": "exp_boost"
+    }
+  }
+]

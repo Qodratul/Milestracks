@@ -1,0 +1,25 @@
+{
+  "version": 8,
+  "name": "Milestracks local preview (development only)",
+  "sources": {
+    "openstreetmap-dev": {
+      "type": "raster",
+      "tiles": ["https://tile.openstreetmap.org/{z}/{x}/{y}.png"],
+      "tileSize": 256,
+      "attribution": "© OpenStreetMap contributors"
+    }
+  },
+  "layers": [
+    {
+      "id": "background",
+      "type": "background",
+      "paint": { "background-color": "#e3ebe4" }
+    },
+    {
+      "id": "openstreetmap-raster",
+      "type": "raster",
+      "source": "openstreetmap-dev",
+      "paint": { "raster-opacity": 0.86, "raster-saturation": -0.24 }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "name": "remaining quota",
+    "input": { "usedThisWeek": 1, "quota": 3 },
+    "expected": { "remaining": 2, "withinQuota": true }
+  },
+  {
+    "name": "quota is exhausted but Safe Stop remains available",
+    "input": { "usedThisWeek": 3, "quota": 3 },
+    "expected": { "remaining": 0, "withinQuota": false }
+  },
+  {
+    "name": "usage above quota stays exhausted",
+    "input": { "usedThisWeek": 5, "quota": 3 },
+    "expected": { "remaining": 0, "withinQuota": false }
+  }
+]

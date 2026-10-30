@@ -1,0 +1,12 @@
+{
+  "version": 8,
+  "name": "Milestracks local run mode",
+  "sources": {},
+  "layers": [
+    {
+      "id": "background",
+      "type": "background",
+      "paint": { "background-color": "#101816" }
+    }
+  ]
+}

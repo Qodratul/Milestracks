@@ -1,0 +1,2 @@
+"NSLocationWhenInUseUsageDescription" = "Milestracks uses your location to record your running route and show your progress while you run.";
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "Milestracks uses your location to keep recording an active run when the app is in the background.";

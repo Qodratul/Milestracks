@@ -1,0 +1,330 @@
+[
+  {
+    "name": "steady running samples are clean",
+    "policy": {
+      "rollingWindowMs": 60000,
+      "rejectSpeedThresholdMmPerSec": 12000,
+      "rejectSustainedMs": 10000,
+      "flagRollingSpeedThresholdMmPerSec": 7500,
+      "jumpDistanceThresholdMm": 150000,
+      "jumpMaxDeltaMs": 5000,
+      "maxSampleGapMs": 20000,
+      "maxAllowedGaps": 0,
+      "maxAllowedDuplicates": 0,
+      "maxAllowedMockedSamples": 0,
+      "maxAllowedOutOfOrderSamples": 0
+    },
+    "samples": [
+      {
+        "sequence": 1,
+        "timestampMs": 0,
+        "latitudeE7": 0,
+        "longitudeE7": 0,
+        "distanceFromPreviousMm": 0,
+        "mocked": false
+      },
+      {
+        "sequence": 2,
+        "timestampMs": 20000,
+        "latitudeE7": 1000,
+        "longitudeE7": 0,
+        "distanceFromPreviousMm": 50000,
+        "mocked": false
+      },
+      {
+        "sequence": 3,
+        "timestampMs": 40000,
+        "latitudeE7": 2000,
+        "longitudeE7": 0,
+        "distanceFromPreviousMm": 50000,
+        "mocked": false
+      },
+      {
+        "sequence": 4,
+        "timestampMs": 60000,
+        "latitudeE7": 3000,
+        "longitudeE7": 0,
+        "distanceFromPreviousMm": 50000,
+        "mocked": false
+      }
+    ],
+    "expected": {
+      "integrity": "clean",
+      "reasonCodes": [],
+      "metrics": {
+        "maxRollingSpeedMmPerSec": 2500,
+        "maxContinuousSpeedDurationMs": 0,
+        "maxJumpDistanceMm": 0,
+        "jumpCount": 0,
+        "gapCount": 0,
+        "duplicateCount": 0,
+        "mockedCount": 0,
+        "outOfOrderCount": 0
+      }
+    }
+  },
+  {
+    "name": "rolling speed over the threshold is flagged",
+    "policy": {
+      "rollingWindowMs": 60000,
+      "rejectSpeedThresholdMmPerSec": 12000,
+      "rejectSustainedMs": 10000,
+      "flagRollingSpeedThresholdMmPerSec": 7500,
+      "jumpDistanceThresholdMm": 150000,
+      "jumpMaxDeltaMs": 5000,
+      "maxSampleGapMs": 20000,
+      "maxAllowedGaps": 0,
+      "maxAllowedDuplicates": 0,
+      "maxAllowedMockedSamples": 0,
+      "maxAllowedOutOfOrderSamples": 0
+    },
+    "samples": [
+      {
+        "sequence": 1,
+        "timestampMs": 0,
+        "latitudeE7": 0,
+        "longitudeE7": 0,
+        "distanceFromPreviousMm": 0,
+        "mocked": false
+      },
+      {
+        "sequence": 2,
+        "timestampMs": 20000,
+        "latitudeE7": 1000,
+        "longitudeE7": 0,
+        "distanceFromPreviousMm": 160000,
+        "mocked": false
+      },
+      {
+        "sequence": 3,
+        "timestampMs": 40000,
+        "latitudeE7": 2000,
+        "longitudeE7": 0,
+        "distanceFromPreviousMm": 160000,
+        "mocked": false
+      },
+      {
+        "sequence": 4,
+        "timestampMs": 60000,
+        "latitudeE7": 3000,
+        "longitudeE7": 0,
+        "distanceFromPreviousMm": 160000,
+        "mocked": false
+      }
+    ],
+    "expected": {
+      "integrity": "flagged",
+      "reasonCodes": ["rolling_speed"],
+      "metrics": {
+        "maxRollingSpeedMmPerSec": 8000,
+        "maxContinuousSpeedDurationMs": 0,
+        "maxJumpDistanceMm": 0,
+        "jumpCount": 0,
+        "gapCount": 0,
+        "duplicateCount": 0,
+        "mockedCount": 0,
+        "outOfOrderCount": 0
+      }
+    }
+  },
+  {
+    "name": "short teleport is flagged",
+    "policy": {
+      "rollingWindowMs": 60000,
+      "rejectSpeedThresholdMmPerSec": 12000,
+      "rejectSustainedMs": 10000,
+      "flagRollingSpeedThresholdMmPerSec": 7500,
+      "jumpDistanceThresholdMm": 150000,
+      "jumpMaxDeltaMs": 5000,
+      "maxSampleGapMs": 20000,
+      "maxAllowedGaps": 0,
+      "maxAllowedDuplicates": 0,
+      "maxAllowedMockedSamples": 0,
+      "maxAllowedOutOfOrderSamples": 0
+    },
+    "samples": [
+      {
+        "sequence": 1,
+        "timestampMs": 0,
+        "latitudeE7": 0,
+        "longitudeE7": 0,
+        "distanceFromPreviousMm": 0,
+        "mocked": false
+      },
+      {
+        "sequence": 2,
+        "timestampMs": 3000,
+        "latitudeE7": 1000,
+        "longitudeE7": 0,
+        "distanceFromPreviousMm": 160000,
+        "mocked": false
+      }
+    ],
+    "expected": {
+      "integrity": "flagged",
+      "reasonCodes": ["teleport_jump"],
+      "metrics": {
+        "maxRollingSpeedMmPerSec": 0,
+        "maxContinuousSpeedDurationMs": 3000,
+        "maxJumpDistanceMm": 160000,
+        "jumpCount": 1,
+        "gapCount": 0,
+        "duplicateCount": 0,
+        "mockedCount": 0,
+        "outOfOrderCount": 0
+      }
+    }
+  },
+  {
+    "name": "sustained high speed is rejected",
+    "policy": {
+      "rollingWindowMs": 60000,
+      "rejectSpeedThresholdMmPerSec": 12000,
+      "rejectSustainedMs": 10000,
+      "flagRollingSpeedThresholdMmPerSec": 7500,
+      "jumpDistanceThresholdMm": 150000,
+      "jumpMaxDeltaMs": 5000,
+      "maxSampleGapMs": 5000,
+      "maxAllowedGaps": 0,
+      "maxAllowedDuplicates": 0,
+      "maxAllowedMockedSamples": 0,
+      "maxAllowedOutOfOrderSamples": 0
+    },
+    "samples": [
+      {
+        "sequence": 1,
+        "timestampMs": 0,
+        "latitudeE7": 0,
+        "longitudeE7": 0,
+        "distanceFromPreviousMm": 0,
+        "mocked": false
+      },
+      {
+        "sequence": 2,
+        "timestampMs": 5000,
+        "latitudeE7": 1000,
+        "longitudeE7": 0,
+        "distanceFromPreviousMm": 60000,
+        "mocked": false
+      },
+      {
+        "sequence": 3,
+        "timestampMs": 10000,
+        "latitudeE7": 2000,
+        "longitudeE7": 0,
+        "distanceFromPreviousMm": 60000,
+        "mocked": false
+      }
+    ],
+    "expected": {
+      "integrity": "rejected",
+      "reasonCodes": ["sustained_high_speed"],
+      "metrics": {
+        "maxRollingSpeedMmPerSec": 0,
+        "maxContinuousSpeedDurationMs": 10000,
+        "maxJumpDistanceMm": 0,
+        "jumpCount": 0,
+        "gapCount": 0,
+        "duplicateCount": 0,
+        "mockedCount": 0,
+        "outOfOrderCount": 0
+      }
+    }
+  },
+  {
+    "name": "exact duplicate sample is counted",
+    "policy": {
+      "rollingWindowMs": 60000,
+      "rejectSpeedThresholdMmPerSec": 12000,
+      "rejectSustainedMs": 10000,
+      "flagRollingSpeedThresholdMmPerSec": 7500,
+      "jumpDistanceThresholdMm": 150000,
+      "jumpMaxDeltaMs": 5000,
+      "maxSampleGapMs": 20000,
+      "maxAllowedGaps": 0,
+      "maxAllowedDuplicates": 0,
+      "maxAllowedMockedSamples": 0,
+      "maxAllowedOutOfOrderSamples": 0
+    },
+    "samples": [
+      {
+        "sequence": 1,
+        "timestampMs": 1000,
+        "latitudeE7": 1000,
+        "longitudeE7": 1000,
+        "distanceFromPreviousMm": 0,
+        "mocked": false
+      },
+      {
+        "sequence": 2,
+        "timestampMs": 1000,
+        "latitudeE7": 1000,
+        "longitudeE7": 1000,
+        "distanceFromPreviousMm": 0,
+        "mocked": false
+      }
+    ],
+    "expected": {
+      "integrity": "flagged",
+      "reasonCodes": ["duplicate_samples"],
+      "metrics": {
+        "maxRollingSpeedMmPerSec": 0,
+        "maxContinuousSpeedDurationMs": 0,
+        "maxJumpDistanceMm": 0,
+        "jumpCount": 0,
+        "gapCount": 0,
+        "duplicateCount": 1,
+        "mockedCount": 0,
+        "outOfOrderCount": 0
+      }
+    }
+  },
+  {
+    "name": "large time gap is counted",
+    "policy": {
+      "rollingWindowMs": 60000,
+      "rejectSpeedThresholdMmPerSec": 12000,
+      "rejectSustainedMs": 10000,
+      "flagRollingSpeedThresholdMmPerSec": 7500,
+      "jumpDistanceThresholdMm": 150000,
+      "jumpMaxDeltaMs": 5000,
+      "maxSampleGapMs": 20000,
+      "maxAllowedGaps": 0,
+      "maxAllowedDuplicates": 0,
+      "maxAllowedMockedSamples": 0,
+      "maxAllowedOutOfOrderSamples": 0
+    },
+    "samples": [
+      {
+        "sequence": 1,
+        "timestampMs": 0,
+        "latitudeE7": 0,
+        "longitudeE7": 0,
+        "distanceFromPreviousMm": 0,
+        "mocked": false
+      },
+      {
+        "sequence": 2,
+        "timestampMs": 30000,
+        "latitudeE7": 1000,
+        "longitudeE7": 0,
+        "distanceFromPreviousMm": 40000,
+        "mocked": false
+      }
+    ],
+    "expected": {
+      "integrity": "flagged",
+      "reasonCodes": ["time_gap"],
+      "metrics": {
+        "maxRollingSpeedMmPerSec": 0,
+        "maxContinuousSpeedDurationMs": 0,
+        "maxJumpDistanceMm": 0,
+        "jumpCount": 0,
+        "gapCount": 1,
+        "duplicateCount": 0,
+        "mockedCount": 0,
+        "outOfOrderCount": 0
+      }
+    }
+  }
+]

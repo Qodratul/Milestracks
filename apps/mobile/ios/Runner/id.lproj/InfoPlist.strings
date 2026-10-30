@@ -1,0 +1,2 @@
+"NSLocationWhenInUseUsageDescription" = "Milestracks menggunakan lokasi untuk merekam rute lari dan menunjukkan progres selama kamu berlari.";
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "Milestracks menggunakan lokasi untuk terus merekam sesi lari aktif saat aplikasi berjalan di latar belakang.";

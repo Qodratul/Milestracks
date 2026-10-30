@@ -1,0 +1,133 @@
+{
+  "configVersion": 1,
+  "levels": [
+    {
+      "code": "beginner",
+      "index": 1,
+      "name": "Beginner",
+      "distanceMinMeters": 1000,
+      "distanceMaxMeters": 2000,
+      "milestoneMin": 3,
+      "milestoneMax": 4,
+      "targetSpacingMeters": 400,
+      "expPerKm": 1000,
+      "startExp": 0,
+      "nextLevelAtExp": 10000,
+      "expPerCoin": 1000,
+      "safeStopPerWeek": 2,
+      "defaultRevealMode": "full",
+      "mascotForm": "kila_small"
+    },
+    {
+      "code": "intermediate",
+      "index": 2,
+      "name": "Intermediate",
+      "distanceMinMeters": 2000,
+      "distanceMaxMeters": 5000,
+      "milestoneMin": 4,
+      "milestoneMax": 6,
+      "targetSpacingMeters": 700,
+      "expPerKm": 800,
+      "startExp": 10000,
+      "nextLevelAtExp": 40000,
+      "expPerCoin": 1400,
+      "safeStopPerWeek": 3,
+      "defaultRevealMode": "next_milestone",
+      "mascotForm": "kila_runner"
+    },
+    {
+      "code": "advanced",
+      "index": 3,
+      "name": "Advanced",
+      "distanceMinMeters": 5000,
+      "distanceMaxMeters": 8000,
+      "milestoneMin": 6,
+      "milestoneMax": 8,
+      "targetSpacingMeters": 1000,
+      "expPerKm": 650,
+      "startExp": 40000,
+      "nextLevelAtExp": 120000,
+      "expPerCoin": 2000,
+      "safeStopPerWeek": 4,
+      "defaultRevealMode": "next_milestone",
+      "mascotForm": "kila_tracker"
+    },
+    {
+      "code": "professional",
+      "index": 4,
+      "name": "Professional",
+      "distanceMinMeters": 8000,
+      "distanceMaxMeters": 15000,
+      "milestoneMin": 8,
+      "milestoneMax": 12,
+      "targetSpacingMeters": 1200,
+      "expPerKm": 500,
+      "startExp": 120000,
+      "nextLevelAtExp": 300000,
+      "expPerCoin": 2800,
+      "safeStopPerWeek": 5,
+      "defaultRevealMode": "blind",
+      "mascotForm": "kila_guardian"
+    },
+    {
+      "code": "master",
+      "index": 5,
+      "name": "Master",
+      "distanceMinMeters": 15000,
+      "distanceMaxMeters": 25000,
+      "milestoneMin": 12,
+      "milestoneMax": 16,
+      "targetSpacingMeters": 1400,
+      "expPerKm": 400,
+      "startExp": 300000,
+      "nextLevelAtExp": null,
+      "expPerCoin": 4000,
+      "safeStopPerWeek": 7,
+      "defaultRevealMode": "blind",
+      "mascotForm": "kila_legend"
+    }
+  ],
+  "items": [
+    {
+      "code": "exp_boost",
+      "name": "EXP Boost 1.5x",
+      "slot": "boost",
+      "maxStock": 3,
+      "exclusiveCodes": []
+    },
+    {
+      "code": "less_compensation",
+      "name": "Less Compensation",
+      "slot": "modifier",
+      "maxStock": 3,
+      "exclusiveCodes": ["gain_more"]
+    },
+    {
+      "code": "gain_more",
+      "name": "Gain More, Risk More",
+      "slot": "modifier",
+      "maxStock": 3,
+      "exclusiveCodes": ["less_compensation"]
+    }
+  ],
+  "rules": {
+    "penaltyFreeRuns": 5,
+    "boostWindowActiveSec": 1440,
+    "boostMultiplierPermil": 1500,
+    "gainMoreMultiplierPermil": 2000,
+    "multiplierCapPermil": 3000,
+    "penaltyPermil": {
+      "default": 1000,
+      "less_compensation": 650,
+      "gain_more": 1750
+    },
+    "milestoneRadiusMeters": 25,
+    "trackStartRadiusMeters": 250,
+    "startMaxDistanceMeters": 150,
+    "minimumDistanceMeters": 250,
+    "regenerationsPerDay": 2,
+    "kcalPerKm": 60,
+    "startingItemStock": 3,
+    "weekStart": "monday_utc"
+  }
+}

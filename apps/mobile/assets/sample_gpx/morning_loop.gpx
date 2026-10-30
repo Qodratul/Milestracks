@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Milestracks MockGpxStream">
+  <trk><name>Sample route</name><trkseg>
+    <trkpt lat="-6.201000" lon="106.817000"><time>2026-10-25T06:00:00Z</time></trkpt>
+    <trkpt lat="-6.201060" lon="106.817085"><time>2026-10-25T06:00:08Z</time></trkpt>
+    <trkpt lat="-6.201120" lon="106.817170"><time>2026-10-25T06:00:16Z</time></trkpt>
+    <trkpt lat="-6.201180" lon="106.817255"><time>2026-10-25T06:00:24Z</time></trkpt>
+    <trkpt lat="-6.201240" lon="106.817340"><time>2026-10-25T06:00:32Z</time></trkpt>
+    <trkpt lat="-6.201300" lon="106.817425"><time>2026-10-25T06:00:40Z</time></trkpt>
+    <trkpt lat="-6.201360" lon="106.817510"><time>2026-10-25T06:00:48Z</time></trkpt>
+    <trkpt lat="-6.201400" lon="106.817600"><time>2026-10-25T06:00:56Z</time></trkpt>
+  </trkseg></trk>
+</gpx>

@@ -1,0 +1,1484 @@
+{
+  "info": {
+    "_postman_id": "bb75fce7-b7b2-4f57-9670-abb42efff023",
+    "name": "Milestracks API",
+    "description": "Postman untuk API.md sections 4-10. Auth dan akun Tahap 5 serta inventory/loadout Tahap 6 sudah diimplementasikan. Pilih environment Milestracks Local; STUB_MODE=false diperlukan untuk menguji endpoint database nyata. Kredensial Supabase tetap server-side di apps/api/.env.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "auth": {
+    "type": "bearer",
+    "bearer": [
+      {
+        "key": "token",
+        "value": "{{accessToken}}",
+        "type": "string"
+      }
+    ]
+  },
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "type": "text/javascript",
+        "exec": [
+          "if (pm.request.headers.has('Idempotency-Key')) {",
+          "  pm.variables.set('idempotencyKey', pm.variables.replaceIn('{{$guid}}'));",
+          "}"
+        ]
+      }
+    }
+  ],
+  "item": [
+    {
+      "name": "Operations",
+      "item": [
+        {
+          "name": "Health",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "Accept-Language",
+                "value": "{{locale}}"
+              },
+              {
+                "key": "X-Client-Version",
+                "value": "{{clientVersion}}"
+              }
+            ],
+            "url": "{{serviceUrl}}/healthz",
+            "description": "Health check proses HTTP; endpoint berada di root.",
+            "auth": {
+              "type": "noauth"
+            }
+          }
+        },
+        {
+          "name": "Readiness",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "Accept-Language",
+                "value": "{{locale}}"
+              },
+              {
+                "key": "X-Client-Version",
+                "value": "{{clientVersion}}"
+              }
+            ],
+            "url": "{{serviceUrl}}/readyz",
+            "description": "Readiness dependency check; membutuhkan PostgreSQL sehat.",
+            "auth": {
+              "type": "noauth"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Auth",
+      "item": [
+        {
+          "name": "Register",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "Accept-Language",
+                "value": "{{locale}}"
+              },
+              {
+                "key": "X-Client-Version",
+                "value": "{{clientVersion}}"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": "{{baseUrl}}/auth/register",
+            "description": "",
+            "auth": {
+              "type": "noauth"
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"displayName\": \"{{userDisplayName}}\",\n  \"email\": \"{{userEmail}}\",\n  \"password\": \"{{userPassword}}\",\n  \"locale\": \"{{locale}}\",\n  \"timezone\": \"{{timezone}}\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Register returns 201 Created', function () { pm.response.to.have.status(201); });",
+                  "const payload = pm.response.json();",
+                  "const data = payload && payload.data;",
+                  "pm.test('Register returns a user and session tokens', function () {",
+                  "  pm.expect(data).to.be.an(\"object\");",
+                  "  pm.expect(data.user.id).to.be.a(\"string\");",
+                  "  pm.expect(data.emailVerificationRequired).to.eql(false);",
+                  "  pm.expect(data.accessToken).to.be.a(\"string\");",
+                  "  pm.expect(data.refreshToken).to.be.a(\"string\");",
+                  "});",
+                  "if (pm.response.code === 201 && data && data.user && data.accessToken && data.refreshToken) {",
+                  "  pm.environment.set('userId', data.user.id);",
+                  "  pm.environment.set('accessToken', data.accessToken);",
+                  "  pm.environment.set('refreshToken', data.refreshToken);",
+                  "}"
+                ]
+              }
+            }
+          ],
+          "description": "Membuat akun dan state game awal. Ganti userEmail jika akun tersebut sudah ada. Response sukses menyimpan userId, accessToken, dan refreshToken ke environment."
+        },
+        {
+          "name": "Login",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "Accept-Language",
+                "value": "{{locale}}"
+              },
+              {
+                "key": "X-Client-Version",
+                "value": "{{clientVersion}}"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": "{{baseUrl}}/auth/login",
+            "description": "",
+            "auth": {
+              "type": "noauth"
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"email\": \"{{userEmail}}\",\n  \"password\": \"{{userPassword}}\",\n  \"rememberMe\": true\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Login returns 200 OK', function () { pm.response.to.have.status(200); });",
+                  "const payload = pm.response.json();",
+                  "const data = payload && payload.data;",
+                  "pm.test('Login returns a user and session tokens', function () {",
+                  "  pm.expect(data).to.be.an(\"object\");",
+                  "  pm.expect(data.user.id).to.be.a(\"string\");",
+                  "  pm.expect(data.emailVerificationRequired).to.eql(false);",
+                  "  pm.expect(data.accessToken).to.be.a(\"string\");",
+                  "  pm.expect(data.refreshToken).to.be.a(\"string\");",
+                  "});",
+                  "if (pm.response.code === 200 && data && data.user && data.accessToken && data.refreshToken) {",
+                  "  pm.environment.set('userId', data.user.id);",
+                  "  pm.environment.set('accessToken', data.accessToken);",
+                  "  pm.environment.set('refreshToken', data.refreshToken);",
+                  "}"
+                ]
+              }
+            }
+          ],
+          "description": "Masuk ke akun yang sudah terdaftar. rememberMe diterima untuk kompatibilitas; masa refresh token MVP tetap 30 hari."
+        },
+        {
+          "name": "Refresh token",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "Accept-Language",
+                "value": "{{locale}}"
+              },
+              {
+                "key": "X-Client-Version",
+                "value": "{{clientVersion}}"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": "{{baseUrl}}/auth/refresh",
+            "description": "",
+            "auth": {
+              "type": "noauth"
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"refreshToken\": \"{{refreshToken}}\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "const previousRefreshToken = pm.environment.get('refreshToken');",
+                  "pm.test('Refresh returns 200 OK', function () { pm.response.to.have.status(200); });",
+                  "const payload = pm.response.json();",
+                  "const data = payload && payload.data;",
+                  "pm.test('Refresh rotates the refresh token', function () {",
+                  "  pm.expect(data).to.be.an(\"object\");",
+                  "  pm.expect(data.accessToken).to.be.a(\"string\");",
+                  "  pm.expect(data.refreshToken).to.be.a(\"string\").and.not.eql(previousRefreshToken);",
+                  "});",
+                  "if (pm.response.code === 200 && data && data.accessToken && data.refreshToken) {",
+                  "  pm.environment.set('accessToken', data.accessToken);",
+                  "  pm.environment.set('refreshToken', data.refreshToken);",
+                  "}"
+                ]
+              }
+            }
+          ],
+          "description": "Rotasi refresh token. Script test otomatis mengganti accessToken dan refreshToken lama di environment."
+        }
+      ],
+      "description": "Register, login, dan refresh menyimpan accessToken/refreshToken yang dipakai endpoint protected. Jalankan Account and Config setelah autentikasi; jalankan Session cleanup setelah selesai. Refresh merotasi refreshToken."
+    },
+    {
+      "name": "Account and Config",
+      "item": [
+        {
+          "name": "Get game config",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "Accept-Language",
+                "value": "{{locale}}"
+              },
+              {
+                "key": "X-Client-Version",
+                "value": "{{clientVersion}}"
+              }
+            ],
+            "url": "{{baseUrl}}/config/game",
+            "description": ""
+          }
+        },
+        {
+          "name": "Get current user",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "Accept-Language",
+                "value": "{{locale}}"
+              },
+              {
+                "key": "X-Client-Version",
+                "value": "{{clientVersion}}"
+              }
+            ],
+            "url": "{{baseUrl}}/me",
+            "description": ""
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Get current user returns 200 OK', function () { pm.response.to.have.status(200); });",
+                  "const payload = pm.response.json();",
+                  "const data = payload && payload.data;",
+                  "pm.test('Current account matches the authenticated user', function () {",
+                  "  pm.expect(data.email).to.eql(pm.environment.get(\"userEmail\"));",
+                  "  pm.expect(data.id).to.eql(pm.environment.get(\"userId\"));",
+                  "  pm.expect(data.levelCode).to.be.a(\"string\");",
+                  "});"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Get home summary",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "Accept-Language",
+                "value": "{{locale}}"
+              },
+              {
+                "key": "X-Client-Version",
+                "value": "{{clientVersion}}"
+              }
+            ],
+            "url": "{{baseUrl}}/me/home-summary",
+            "description": ""
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Home summary returns 200 OK', function () { pm.response.to.have.status(200); });",
+                  "const payload = pm.response.json();",
+                  "const data = payload && payload.data;",
+                  "pm.test('Home summary includes level and mascot progression', function () {",
+                  "  pm.expect(data.levelCode).to.be.a(\"string\");",
+                  "  pm.expect(data.mascotForm).to.be.a(\"string\");",
+                  "  pm.expect(data.levelProgress).to.be.a(\"number\");",
+                  "});"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Get wallet",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "Accept-Language",
+                "value": "{{locale}}"
+              },
+              {
+                "key": "X-Client-Version",
+                "value": "{{clientVersion}}"
+              }
+            ],
+            "url": "{{baseUrl}}/me/wallet",
+            "description": ""
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Wallet returns 200 OK', function () { pm.response.to.have.status(200); });",
+                  "const payload = pm.response.json();",
+                  "const data = payload && payload.data;",
+                  "pm.test('Wallet includes coin balance and progress', function () {",
+                  "  pm.expect(data.coins).to.be.a(\"number\");",
+                  "  pm.expect(data.coinProgress).to.be.a(\"number\");",
+                  "});"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "Endpoint config dan akun. Request /me menggunakan accessToken dari Register atau Login; respons akun selalu mengikuti subject JWT."
+    },
+    {
+      "name": "Mystery Routes",
+      "item": [
+        {
+          "name": "Get today's mystery route",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "Accept-Language",
+                "value": "{{locale}}"
+              },
+              {
+                "key": "X-Client-Version",
+                "value": "{{clientVersion}}"
+              }
+            ],
+            "url": "{{baseUrl}}/routes/mystery/today",
+            "description": ""
+          }
+        },
+        {
+          "name": "Generate mystery route",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "Accept-Language",
+                "value": "{{locale}}"
+              },
+              {
+                "key": "X-Client-Version",
+                "value": "{{clientVersion}}"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Idempotency-Key",
+                "value": "{{idempotencyKey}}"
+              }
+            ],
+            "url": "{{baseUrl}}/routes/mystery/generate",
+            "description": "",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"location\": {\n    \"lat\": -6.2185,\n    \"lng\": 106.8021,\n    \"accuracyMeters\": 12\n  },\n  \"weather\": {\n    \"temperatureC\": 31.5,\n    \"observedAt\": \"2026-10-25T09:25:00Z\"\n  },\n  \"preferredDistanceMeters\": 1500\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "const payload = pm.response.json();",
+                  "const data = payload && payload.data;",
+                  "const route = data && (data.route || data);",
+                  "if (route && route.routeId) pm.environment.set('routeId', route.routeId);"
+                ]
+              }
+            },
+            {
+              "listen": "prerequest",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.environment.set('idempotencyKey', pm.variables.replaceIn('{{$guid}}'));"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Regenerate mystery route",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "Accept-Language",
+                "value": "{{locale}}"
+              },
+              {
+                "key": "X-Client-Version",
+                "value": "{{clientVersion}}"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Idempotency-Key",
+                "value": "{{idempotencyKey}}"
+              }
+            ],
+            "url": "{{baseUrl}}/routes/mystery/regenerate",
+            "description": "",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"location\": {\n    \"lat\": -6.2185,\n    \"lng\": 106.8021,\n    \"accuracyMeters\": 12\n  },\n  \"weather\": {\n    \"temperatureC\": 31.5\n  }\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "const payload = pm.response.json();",
+                  "const data = payload && payload.data;",
+                  "const route = data && (data.route || data);",
+                  "if (route && route.routeId) pm.environment.set('routeId', route.routeId);"
+                ]
+              }
+            },
+            {
+              "listen": "prerequest",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.environment.set('idempotencyKey', pm.variables.replaceIn('{{$guid}}'));"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Get route preview",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "Accept-Language",
+                "value": "{{locale}}"
+              },
+              {
+                "key": "X-Client-Version",
+                "value": "{{clientVersion}}"
+              }
+            ],
+            "url": "{{baseUrl}}/routes/{{routeId}}/preview",
+            "description": ""
+          }
+        },
+        {
+          "name": "Get route geometry preview",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "Accept-Language",
+                "value": "{{locale}}"
+              },
+              {
+                "key": "X-Client-Version",
+                "value": "{{clientVersion}}"
+              }
+            ],
+            "url": "{{baseUrl}}/routes/{{routeId}}/geometry?detail=preview",
+            "description": ""
+          }
+        },
+        {
+          "name": "Get route geometry page",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "Accept-Language",
+                "value": "{{locale}}"
+              },
+              {
+                "key": "X-Client-Version",
+                "value": "{{clientVersion}}"
+              }
+            ],
+            "url": "{{baseUrl}}/routes/{{routeId}}/geometry?limit=500",
+            "description": ""
+          }
+        },
+        {
+          "name": "Report route",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "Accept-Language",
+                "value": "{{locale}}"
+              },
+              {
+                "key": "X-Client-Version",
+                "value": "{{clientVersion}}"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": "{{baseUrl}}/routes/{{routeId}}/reports",
+            "description": "",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"reason\": \"safety_concern\",\n  \"details\": \"No sidewalk and fast motorbikes.\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Items and Loadout",
+      "item": [
+        {
+          "name": "Get inventory",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "Accept-Language",
+                "value": "{{locale}}"
+              },
+              {
+                "key": "X-Client-Version",
+                "value": "{{clientVersion}}"
+              }
+            ],
+            "url": "{{baseUrl}}/me/inventory",
+            "description": "Mengambil stok seluruh item dari konfigurasi aktif, termasuk status equipped."
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "const payload = pm.response.json();",
+                  "pm.test(\"Inventory returns 200 and the API list envelope\", function () {",
+                  "  pm.response.to.have.status(200);",
+                  "  pm.expect(payload.data).to.be.an(\"array\").that.is.not.empty;",
+                  "  pm.expect(payload.meta.nextCursor).to.eql(null);",
+                  "  pm.expect(payload.meta.limit).to.eql(20);",
+                  "});",
+                  "pm.test(\"Inventory items expose stock and loadout state\", function () {",
+                  "  payload.data.forEach(function (item) {",
+                  "    pm.expect(item.itemCode).to.be.a(\"string\");",
+                  "    pm.expect(item.name).to.be.a(\"string\");",
+                  "    pm.expect(item.slot).to.be.oneOf([\"boost\", \"modifier\"]);",
+                  "    pm.expect(item.ownedCount).to.be.a(\"number\").and.at.least(0);",
+                  "    pm.expect(item.maxStock).to.be.a(\"number\").and.at.least(item.ownedCount);",
+                  "    pm.expect(item.autoUse).to.eql(false);",
+                  "    pm.expect(item.equipped).to.be.a(\"boolean\");",
+                  "  });",
+                  "});"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Get loadout",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "Accept-Language",
+                "value": "{{locale}}"
+              },
+              {
+                "key": "X-Client-Version",
+                "value": "{{clientVersion}}"
+              }
+            ],
+            "url": "{{baseUrl}}/me/loadout",
+            "description": "Membaca loadout aktif pengguna."
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "const payload = pm.response.json();",
+                  "pm.test(\"Loadout returns 200 and both slots\", function () {",
+                  "  pm.response.to.have.status(200);",
+                  "  pm.expect(payload.data).to.be.an(\"object\");",
+                  "  [\"boostItemCode\", \"modifierItemCode\"].forEach(function (key) {",
+                  "    pm.expect(payload.data).to.have.property(key);",
+                  "    pm.expect(payload.data[key] === null || typeof payload.data[key] === \"string\").to.eql(true);",
+                  "  });",
+                  "});"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Update loadout",
+          "request": {
+            "method": "PATCH",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "Accept-Language",
+                "value": "{{locale}}"
+              },
+              {
+                "key": "X-Client-Version",
+                "value": "{{clientVersion}}"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": "{{baseUrl}}/me/loadout",
+            "description": "Set dua slot. Jalankan sebelum Partial update untuk memeriksa perilaku field yang tidak dikirim.",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"boostItemCode\": \"exp_boost\",\n  \"modifierItemCode\": \"less_compensation\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "const payload = pm.response.json();",
+                  "pm.test(\"Loadout update equips the requested items\", function () {",
+                  "  pm.response.to.have.status(200);",
+                  "  pm.expect(payload.data).to.eql({ boostItemCode: \"exp_boost\", modifierItemCode: \"less_compensation\" });",
+                  "});"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Partial update loadout",
+          "request": {
+            "method": "PATCH",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "Accept-Language",
+                "value": "{{locale}}"
+              },
+              {
+                "key": "X-Client-Version",
+                "value": "{{clientVersion}}"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": "{{baseUrl}}/me/loadout",
+            "description": "Mengubah boost saja dan memastikan modifier yang disetel pada Update loadout tetap terpasang.",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"boostItemCode\": \"exp_boost\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "const payload = pm.response.json();",
+                  "pm.test(\"Partial update preserves the omitted modifier slot\", function () {",
+                  "  pm.response.to.have.status(200);",
+                  "  pm.expect(payload.data).to.eql({ boostItemCode: \"exp_boost\", modifierItemCode: \"less_compensation\" });",
+                  "});"
+                ]
+              }
+            }
+          ],
+          "description": "Mengubah boost saja dan memastikan modifier yang disetel pada Update loadout tetap terpasang."
+        },
+        {
+          "name": "Unequip modifier",
+          "request": {
+            "method": "PATCH",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "Accept-Language",
+                "value": "{{locale}}"
+              },
+              {
+                "key": "X-Client-Version",
+                "value": "{{clientVersion}}"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": "{{baseUrl}}/me/loadout",
+            "description": "Mengirim null untuk melepas modifier; boost tetap terpasang.",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"modifierItemCode\": null\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "const payload = pm.response.json();",
+                  "pm.test(\"Null unequips only the selected slot\", function () {",
+                  "  pm.response.to.have.status(200);",
+                  "  pm.expect(payload.data).to.eql({ boostItemCode: \"exp_boost\", modifierItemCode: null });",
+                  "});"
+                ]
+              }
+            }
+          ],
+          "description": "Mengirim null untuk melepas modifier; boost tetap terpasang."
+        }
+      ]
+    },
+    {
+      "name": "Runs",
+      "item": [
+        {
+          "name": "Start run",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "Accept-Language",
+                "value": "{{locale}}"
+              },
+              {
+                "key": "X-Client-Version",
+                "value": "{{clientVersion}}"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Idempotency-Key",
+                "value": "{{idempotencyKey}}"
+              }
+            ],
+            "url": "{{baseUrl}}/runs",
+            "description": "",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"routeId\": \"{{routeId}}\",\n  \"boostItemCode\": null,\n  \"modifierItemCode\": \"less_compensation\",\n  \"units\": \"metric\",\n  \"startLocation\": {\n    \"lat\": -6.2185,\n    \"lng\": 106.8021,\n    \"accuracyMeters\": 8\n  },\n  \"clientCapabilities\": {\n    \"platform\": \"android\",\n    \"appVersion\": \"{{clientVersion}}\",\n    \"backgroundLocation\": true,\n    \"mockLocationEnabled\": false\n  }\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "const payload = pm.response.json();",
+                  "const data = payload && payload.data;",
+                  "pm.environment.unset('runId');",
+                  "pm.environment.unset('milestoneId');",
+                  "pm.environment.unset('claimId');",
+                  "pm.environment.unset('runIntegrity');",
+                  "pm.environment.unset('runStatus');",
+                  "if (data && data.runId) pm.environment.set('runId', data.runId);",
+                  "if (data && data.status) pm.environment.set('runStatus', data.status);",
+                  "if (data && data.milestones && data.milestones[0]) pm.environment.set('milestoneId', data.milestones[0].id);"
+                ]
+              }
+            },
+            {
+              "listen": "prerequest",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.environment.set('idempotencyKey', pm.variables.replaceIn('{{$guid}}'));"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Get run status",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "Accept-Language",
+                "value": "{{locale}}"
+              },
+              {
+                "key": "X-Client-Version",
+                "value": "{{clientVersion}}"
+              }
+            ],
+            "url": "{{baseUrl}}/runs/{{runId}}",
+            "description": ""
+          }
+        },
+        {
+          "name": "Pause run",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "Accept-Language",
+                "value": "{{locale}}"
+              },
+              {
+                "key": "X-Client-Version",
+                "value": "{{clientVersion}}"
+              }
+            ],
+            "url": "{{baseUrl}}/runs/{{runId}}/pause",
+            "description": ""
+          }
+        },
+        {
+          "name": "Resume run",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "Accept-Language",
+                "value": "{{locale}}"
+              },
+              {
+                "key": "X-Client-Version",
+                "value": "{{clientVersion}}"
+              }
+            ],
+            "url": "{{baseUrl}}/runs/{{runId}}/resume",
+            "description": ""
+          }
+        },
+        {
+          "name": "Upload location samples",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "Accept-Language",
+                "value": "{{locale}}"
+              },
+              {
+                "key": "X-Client-Version",
+                "value": "{{clientVersion}}"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": "{{baseUrl}}/runs/{{runId}}/locations",
+            "description": "",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"samples\": [\n    {\n      \"sequence\": 1,\n      \"t\": 1792920605000,\n      \"lat\": -6.21851,\n      \"lng\": 106.80212,\n      \"accuracyMeters\": 6.5,\n      \"speedMps\": 2.7,\n      \"altitudeMeters\": 12,\n      \"mocked\": false\n    },\n    {\n      \"sequence\": 2,\n      \"t\": 1792920606000,\n      \"lat\": -6.21848,\n      \"lng\": 106.80215,\n      \"accuracyMeters\": 6,\n      \"speedMps\": 2.8,\n      \"altitudeMeters\": 12.1,\n      \"mocked\": false\n    },\n    {\n      \"sequence\": 3,\n      \"t\": 1792920607000,\n      \"lat\": -6.21845,\n      \"lng\": 106.80219,\n      \"accuracyMeters\": 6.2,\n      \"speedMps\": 2.8,\n      \"altitudeMeters\": 12.1,\n      \"mocked\": false\n    }\n  ]\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Reach milestone",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "Accept-Language",
+                "value": "{{locale}}"
+              },
+              {
+                "key": "X-Client-Version",
+                "value": "{{clientVersion}}"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Idempotency-Key",
+                "value": "{{idempotencyKey}}"
+              }
+            ],
+            "url": "{{baseUrl}}/runs/{{runId}}/milestones/{{milestoneId}}/reach",
+            "description": "",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"reachedAt\": \"2026-10-25T09:34:05Z\",\n  \"location\": {\n    \"lat\": -6.2171,\n    \"lng\": 106.8034,\n    \"accuracyMeters\": 7\n  },\n  \"lastSampleSequence\": {{lastSampleSequence}}\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "event": [
+            {
+              "listen": "prerequest",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.environment.set('idempotencyKey', pm.variables.replaceIn('{{$guid}}'));"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Safe stop",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "Accept-Language",
+                "value": "{{locale}}"
+              },
+              {
+                "key": "X-Client-Version",
+                "value": "{{clientVersion}}"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Idempotency-Key",
+                "value": "{{idempotencyKey}}"
+              }
+            ],
+            "url": "{{baseUrl}}/runs/{{runId}}/safe-stop",
+            "description": "",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"reason\": \"tired\",\n  \"lastSampleSequence\": {{lastSampleSequence}}\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "const payload = pm.response.json();",
+                  "const data = payload && payload.data;",
+                  "if (data && data.claimId) pm.environment.set('claimId', data.claimId);"
+                ]
+              }
+            },
+            {
+              "listen": "prerequest",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.environment.set('idempotencyKey', pm.variables.replaceIn('{{$guid}}'));"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Finish run",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "Accept-Language",
+                "value": "{{locale}}"
+              },
+              {
+                "key": "X-Client-Version",
+                "value": "{{clientVersion}}"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Idempotency-Key",
+                "value": "{{idempotencyKey}}"
+              }
+            ],
+            "url": "{{baseUrl}}/runs/{{runId}}/finish",
+            "description": "Runs server-side anti-cheat. In shadow mode, anomalous runs remain claimable and their integrity is recorded. Enforce mode can reject a run with claimId set to null. Use Claim only when claimId is populated.",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"endedAt\": \"2026-10-25T09:39:30Z\",\n  \"lastSampleSequence\": {{lastSampleSequence}},\n  \"clientSummary\": {\n    \"distanceMeters\": 1162,\n    \"durationSec\": 570\n  }\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "const payload = pm.response.json();",
+                  "const data = payload && payload.data;",
+                  "pm.test('finish returns a supported run and integrity status', function () {",
+                  "  pm.expect(data).to.be.an('object');",
+                  "  pm.expect(data.status).to.be.oneOf(['completed', 'rejected']);",
+                  "  pm.expect(data.integrity).to.be.oneOf(['clean', 'flagged', 'rejected']);",
+                  "  if (data.status === 'rejected' || data.integrity === 'rejected') pm.expect(data.claimId).to.be.null;",
+                  "  else pm.expect(data.claimId).to.be.a('string').and.not.empty;",
+                  "});",
+                  "if (data) {",
+                  "  pm.environment.set('runStatus', data.status || '');",
+                  "  pm.environment.set('runIntegrity', data.integrity || '');",
+                  "  if (data.claimId) pm.environment.set('claimId', data.claimId);",
+                  "  else pm.environment.unset('claimId');",
+                  "}"
+                ]
+              }
+            },
+            {
+              "listen": "prerequest",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.environment.set('idempotencyKey', pm.variables.replaceIn('{{$guid}}'));"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Get run summary",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "Accept-Language",
+                "value": "{{locale}}"
+              },
+              {
+                "key": "X-Client-Version",
+                "value": "{{clientVersion}}"
+              }
+            ],
+            "url": "{{baseUrl}}/runs/{{runId}}/summary",
+            "description": ""
+          }
+        },
+        {
+          "name": "Claim run rewards",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "Accept-Language",
+                "value": "{{locale}}"
+              },
+              {
+                "key": "X-Client-Version",
+                "value": "{{clientVersion}}"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Idempotency-Key",
+                "value": "{{idempotencyKey}}"
+              }
+            ],
+            "url": "{{baseUrl}}/runs/{{runId}}/claim",
+            "description": "",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"claimId\": \"{{claimId}}\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "event": [
+            {
+              "listen": "prerequest",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.environment.set('idempotencyKey', pm.variables.replaceIn('{{$guid}}'));"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Get run guidance",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "Accept-Language",
+                "value": "{{locale}}"
+              },
+              {
+                "key": "X-Client-Version",
+                "value": "{{clientVersion}}"
+              }
+            ],
+            "url": "{{baseUrl}}/runs/{{runId}}/guidance",
+            "description": ""
+          }
+        }
+      ]
+    },
+    {
+      "name": "MVP+ Safety Tier (Optional)",
+      "item": [
+        {
+          "name": "Milestone safety check",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "Accept-Language",
+                "value": "{{locale}}"
+              },
+              {
+                "key": "X-Client-Version",
+                "value": "{{clientVersion}}"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": "{{baseUrl}}/runs/{{runId}}/milestone-check",
+            "description": "Endpoint opsional API.md section 10; bukan bagian MVP inti.",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"trigger\": \"pace_drop\",\n  \"milestoneId\": \"{{milestoneId}}\",\n  \"lastSampleSequence\": {{lastSampleSequence}},\n  \"client\": {\n    \"paceSecPerKm\": 640,\n    \"baselinePaceSecPerKm\": 480,\n    \"temperatureC\": 35\n  }\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Session cleanup",
+      "description": "Jalankan paling akhir setelah seluruh endpoint protected selesai diuji; request ini mengakhiri sesi dan menghapus token dari environment.",
+      "item": [
+        {
+          "name": "Logout",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "Accept-Language",
+                "value": "{{locale}}"
+              },
+              {
+                "key": "X-Client-Version",
+                "value": "{{clientVersion}}"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": "{{baseUrl}}/auth/logout",
+            "description": "",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"refreshToken\": \"{{refreshToken}}\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Logout returns 200 OK', function () { pm.response.to.have.status(200); });",
+                  "const payload = pm.response.json();",
+                  "const data = payload && payload.data;",
+                  "pm.test('Logout confirms the session ended', function () { pm.expect(data.loggedOut).to.eql(true); });",
+                  "if (pm.response.code === 200 && data && data.loggedOut === true) {",
+                  "  pm.environment.unset('accessToken');",
+                  "  pm.environment.unset('refreshToken');",
+                  "  pm.environment.unset('userId');",
+                  "}"
+                ]
+              }
+            }
+          ],
+          "description": "Logout sesi refresh token setelah seluruh request protected selesai."
+        }
+      ]
+    }
+  ]
+}

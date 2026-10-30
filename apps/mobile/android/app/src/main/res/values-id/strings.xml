@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Milestracks</string>
+    <string name="run_notification_channel_name">Pelacakan lari</string>
+    <string name="run_notification_channel_description">Status aktif dan kontrol keselamatan untuk sesi larimu.</string>
+</resources>

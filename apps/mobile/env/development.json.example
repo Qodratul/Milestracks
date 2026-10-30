@@ -1,0 +1,12 @@
+{
+  "APP_FLAVOR": "development",
+  "USE_FAKE_API": "false",
+  "API_BASE_URL": "http://10.0.2.2:3000/api/v1",
+  "GOOGLE_CLIENT_ID": "",
+  "GOOGLE_SERVER_CLIENT_ID": "",
+  "MAP_TILE_URL": "",
+  "MAP_DARK_TILE_URL": "",
+  "MAP_TILE_KEY": "",
+  "MAP_TILE_ATTRIBUTION": "",
+  "SENTRY_DSN": ""
+}

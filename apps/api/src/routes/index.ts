@@ -1,0 +1,9 @@
+export { healthRouter } from "./health.route";
+export { apiRouter } from "./api.route";
+export { authRouter } from "./auth.route";
+export { accountRouter } from "./account.route";
+export { achievementRouter } from "./achievement.route";
+export { inventoryRouter } from "./inventory.route";
+export { loadoutRouter } from "./loadout.route";
+export { routeRouter } from "./route.route";
+export { shopRouter } from "./shop.route";

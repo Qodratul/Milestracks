@@ -1,0 +1,18 @@
+services:
+  postgres:
+    image: postgis/postgis:16-3.4
+    environment:
+      POSTGRES_DB: milestride
+      POSTGRES_USER: milestride
+      POSTGRES_PASSWORD: milestride
+    ports:
+      - "5432:5432"
+    volumes:
+      - milestride_postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -h 127.0.0.1 -p 5432 -U milestride -d milestride"]
+      interval: 5s
+      timeout: 3s
+      retries: 12
+volumes:
+  milestride_postgres_data:

@@ -1,0 +1,17 @@
+[
+  {
+    "name": "beginner full run",
+    "input": { "basis": 1500, "carryMilli": 0, "expPerCoin": 1000 },
+    "expected": { "coinsGained": 1, "carryMilli": 500 }
+  },
+  {
+    "name": "carry survives a level rate change",
+    "input": { "basis": 700, "carryMilli": 500, "expPerCoin": 1400 },
+    "expected": { "coinsGained": 1, "carryMilli": 0 }
+  },
+  {
+    "name": "zero basis preserves the fraction",
+    "input": { "basis": 0, "carryMilli": 999, "expPerCoin": 2800 },
+    "expected": { "coinsGained": 0, "carryMilli": 999 }
+  }
+]

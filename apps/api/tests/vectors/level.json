@@ -1,0 +1,46 @@
+[
+  {
+    "name": "beginner at zero EXP",
+    "input": { "totalExp": 0 },
+    "expected": {
+      "levelCode": "beginner",
+      "nextLevelCode": "intermediate",
+      "expIntoLevel": 0,
+      "expToNextLevel": 10000,
+      "progressPermil": 0
+    }
+  },
+  {
+    "name": "one EXP below the first threshold",
+    "input": { "totalExp": 9999 },
+    "expected": {
+      "levelCode": "beginner",
+      "nextLevelCode": "intermediate",
+      "expIntoLevel": 9999,
+      "expToNextLevel": 1,
+      "progressPermil": 999
+    }
+  },
+  {
+    "name": "exactly at intermediate threshold",
+    "input": { "totalExp": 10000 },
+    "expected": {
+      "levelCode": "intermediate",
+      "nextLevelCode": "advanced",
+      "expIntoLevel": 0,
+      "expToNextLevel": 30000,
+      "progressPermil": 0
+    }
+  },
+  {
+    "name": "master has no next level",
+    "input": { "totalExp": 300000 },
+    "expected": {
+      "levelCode": "master",
+      "nextLevelCode": null,
+      "expIntoLevel": 0,
+      "expToNextLevel": null,
+      "progressPermil": 1000
+    }
+  }
+]

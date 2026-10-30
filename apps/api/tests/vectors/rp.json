@@ -1,0 +1,17 @@
+[
+  {
+    "name": "RP equals the protected basis for a full run",
+    "input": { "basis": 1500 },
+    "expected": { "rpGained": 1500 }
+  },
+  {
+    "name": "RP equals the reduced basis after missed milestones",
+    "input": { "basis": 500 },
+    "expected": { "rpGained": 500 }
+  },
+  {
+    "name": "zero basis grants no RP",
+    "input": { "basis": 0 },
+    "expected": { "rpGained": 0 }
+  }
+]

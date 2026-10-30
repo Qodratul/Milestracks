@@ -1,0 +1,49 @@
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:flutter_secure_storage/flutter_secure_storage.dart';
+
+abstract interface class SecureStorageService {
+  Future<String?> read(String key);
+  Future<void> write(String key, String value);
+  Future<void> delete(String key);
+}
+
+class FlutterSecureStorageService implements SecureStorageService {
+  FlutterSecureStorageService({FlutterSecureStorage? storage})
+    : _storage = storage ?? const FlutterSecureStorage();
+
+  final FlutterSecureStorage _storage;
+
+  @override
+  Future<String?> read(String key) => _storage.read(key: key);
+
+  @override
+  Future<void> write(String key, String value) =>
+      _storage.write(key: key, value: value);
+
+  @override
+  Future<void> delete(String key) => _storage.delete(key: key);
+}
+
+class MemorySecureStorageService implements SecureStorageService {
+  final Map<String, String> _values = <String, String>{};
+
+  @override
+  Future<String?> read(String key) async => _values[key];
+
+  @override
+  Future<void> write(String key, String value) async => _values[key] = value;
+
+  @override
+  Future<void> delete(String key) async => _values.remove(key);
+}
+
+final secureStorageProvider = Provider<SecureStorageService>(
+  (ref) => FlutterSecureStorageService(),
+);
+
+abstract final class SecureStorageKeys {
+  static const accessToken = 'access_token';
+  static const refreshToken = 'refresh_token';
+  static const appLanguage = 'app_language';
+  static const onboardingComplete = 'onboarding_complete';
+}

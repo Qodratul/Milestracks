@@ -1,0 +1,32 @@
+[
+  {
+    "name": "beginner minimum distance clamps to three",
+    "input": { "levelCode": "beginner", "distanceMeters": 1000 },
+    "expected": { "milestoneCount": 3, "trackExp": 1000, "expPerMilestone": 333 }
+  },
+  {
+    "name": "beginner average route rounds to four",
+    "input": { "levelCode": "beginner", "distanceMeters": 1500 },
+    "expected": { "milestoneCount": 4, "trackExp": 1500, "expPerMilestone": 375 }
+  },
+  {
+    "name": "intermediate average route",
+    "input": { "levelCode": "intermediate", "distanceMeters": 3500 },
+    "expected": { "milestoneCount": 5, "trackExp": 2800, "expPerMilestone": 560 }
+  },
+  {
+    "name": "advanced minimum clamps to six",
+    "input": { "levelCode": "advanced", "distanceMeters": 5000 },
+    "expected": { "milestoneCount": 6, "trackExp": 3250, "expPerMilestone": 542 }
+  },
+  {
+    "name": "professional maximum clamps to twelve",
+    "input": { "levelCode": "professional", "distanceMeters": 15000 },
+    "expected": { "milestoneCount": 12, "trackExp": 7500, "expPerMilestone": 625 }
+  },
+  {
+    "name": "master maximum clamps to sixteen",
+    "input": { "levelCode": "master", "distanceMeters": 25000 },
+    "expected": { "milestoneCount": 16, "trackExp": 10000, "expPerMilestone": 625 }
+  }
+]

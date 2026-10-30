@@ -1,0 +1,484 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+enum UserRole {
+  user
+  admin
+
+  @@map("user_role")
+}
+
+enum UserStatus {
+  active
+  disabled
+
+  @@map("user_status")
+}
+
+enum Locale {
+  id
+  en
+
+  @@map("locale")
+}
+
+enum Units {
+  metric
+  imperial
+
+  @@map("units")
+}
+
+enum LevelCode {
+  beginner
+  intermediate
+  advanced
+  professional
+  master
+
+  @@map("level_code")
+}
+
+enum ItemCode {
+  exp_boost
+  less_compensation
+  gain_more
+
+  @@map("item_code")
+}
+
+enum RevealMode {
+  full
+  next_milestone
+  blind
+
+  @@map("reveal_mode")
+}
+
+enum RouteStatus {
+  generating
+  ready
+  failed
+  used
+  expired
+
+  @@map("route_status")
+}
+
+enum TemplateStatus {
+  active
+  flagged
+  suspended
+
+  @@map("template_status")
+}
+
+enum ReportReason {
+  safety_concern
+  incorrect_map
+  inaccessible
+  other
+
+  @@map("report_reason")
+}
+
+enum ReportStatus {
+  received
+  reviewing
+  resolved
+  dismissed
+
+  @@map("report_status")
+}
+
+enum RunStatus {
+  active
+  paused
+  completed
+  safe_stopped
+  rejected
+
+  @@map("run_status")
+}
+
+enum Integrity {
+  clean
+  flagged
+  rejected
+
+  @@map("integrity")
+}
+
+enum IdempotencyState {
+  processing
+  completed
+
+  @@map("idempotency_state")
+}
+
+enum AntiCheatMode {
+  shadow
+  enforce
+
+  @@map("anti_cheat_mode")
+}
+
+model User {
+  id              String           @id @db.VarChar(64)
+  email           String           @db.VarChar(320)
+  passwordHash    String           @map("password_hash") @db.VarChar(255)
+  role            UserRole         @default(user)
+  status          UserStatus       @default(active)
+  emailVerified   Boolean          @default(false) @map("email_verified")
+  googleIdentity  GoogleIdentity?
+  createdAt       DateTime         @default(now()) @map("created_at") @db.Timestamptz(6)
+  updatedAt       DateTime         @updatedAt @map("updated_at") @db.Timestamptz(6)
+  profile         Profile?
+  refreshTokens   RefreshToken[]
+  idempotencyKeys IdempotencyKey[]
+  routes          Route[]
+  reports         RouteReport[]
+  inventory       Inventory[]
+  loadout         Loadout?
+  runs            Run[]
+  expLedger       ExpLedger[]
+  coinLedger      CoinLedger[]
+
+  @@index([createdAt])
+  @@map("users")
+}
+
+model Profile {
+  userId         String    @id @map("user_id") @db.VarChar(64)
+  displayName    String    @map("display_name") @db.VarChar(30)
+  locale         Locale    @default(en)
+  timezone       String    @default("UTC") @db.VarChar(64)
+  healthDisclaimerAcceptedAt DateTime? @map("health_disclaimer_accepted_at") @db.Timestamptz(6)
+  units          Units     @default(metric)
+  totalExp       Int       @default(0) @map("total_exp")
+  levelCode      LevelCode @default(beginner) @map("level_code")
+  coinBalance    Int       @default(0) @map("coin_balance")
+  coinCarryMilli Int       @default(0) @map("coin_carry_milli")
+  rpTotal        Int       @default(0) @map("rp_total")
+  completedRuns  Int       @default(0) @map("completed_runs")
+  createdAt      DateTime  @default(now()) @map("created_at") @db.Timestamptz(6)
+  updatedAt      DateTime  @updatedAt @map("updated_at") @db.Timestamptz(6)
+  user           User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([levelCode, totalExp])
+  @@map("profiles")
+}
+
+model GoogleIdentity {
+  googleSubject String   @id @map("google_subject") @db.VarChar(255)
+  userId        String   @unique @map("user_id") @db.VarChar(64)
+  email         String   @db.VarChar(320)
+  createdAt     DateTime @default(now()) @map("created_at") @db.Timestamptz(6)
+  user          User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("google_identities")
+}
+
+model RefreshToken {
+  id         String    @id @db.VarChar(64)
+  userId     String    @map("user_id") @db.VarChar(64)
+  tokenHash  String    @unique @map("token_hash") @db.VarChar(128)
+  familyId   String    @map("family_id") @db.VarChar(64)
+  expiresAt  DateTime  @map("expires_at") @db.Timestamptz(6)
+  revokedAt  DateTime? @map("revoked_at") @db.Timestamptz(6)
+  replacedBy String?   @map("replaced_by") @db.VarChar(64)
+  createdAt  DateTime  @default(now()) @map("created_at") @db.Timestamptz(6)
+  user       User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, expiresAt])
+  @@index([familyId])
+  @@map("refresh_tokens")
+}
+
+model IdempotencyKey {
+  id          String           @id @default(uuid()) @db.Uuid
+  userId      String           @map("user_id") @db.VarChar(64)
+  key         String           @db.Uuid
+  route       String           @db.VarChar(255)
+  requestHash String           @map("request_hash") @db.Char(64)
+  state       IdempotencyState @default(processing)
+  response    Json?            @db.JsonB
+  statusCode  Int?             @map("status_code") @db.SmallInt
+  createdAt   DateTime         @default(now()) @map("created_at") @db.Timestamptz(6)
+  expiresAt   DateTime         @map("expires_at") @db.Timestamptz(6)
+  user        User             @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, key, route], map: "idempotency_keys_user_key_route_key")
+  @@index([expiresAt])
+  @@map("idempotency_keys")
+}
+
+model GameConfigVersion {
+  version   Int      @id
+  payload   Json     @db.JsonB
+  isActive  Boolean  @default(false) @map("is_active")
+  activeAt  DateTime @default(now()) @map("active_at") @db.Timestamptz(6)
+  createdAt DateTime @default(now()) @map("created_at") @db.Timestamptz(6)
+  routes    Route[]
+
+  @@index([isActive, version])
+  @@map("game_config_versions")
+}
+
+model RouteTemplate {
+  id                   String                                   @id @db.VarChar(64)
+  levelCode            LevelCode                                @map("level_code")
+  distanceMeters       Int                                      @map("distance_meters")
+  estimatedDurationSec Int                                      @map("estimated_duration_sec")
+  estimatedCalories    Int                                      @map("estimated_calories")
+  geometry             Unsupported("geometry(LineString,4326)")
+  instructions         Json                                     @default("[]") @db.JsonB
+  startPoint           Unsupported("geometry(Point,4326)")      @map("start_point")
+  safetyScore          Float                                    @map("safety_score") @db.DoublePrecision
+  dataConfidence       Float                                    @map("data_confidence") @db.DoublePrecision
+  status               TemplateStatus                           @default(active)
+  algorithmVersion     String                                   @map("algorithm_version") @db.VarChar(64)
+  createdAt            DateTime                                 @default(now()) @map("created_at") @db.Timestamptz(6)
+  updatedAt            DateTime                                 @updatedAt @map("updated_at") @db.Timestamptz(6)
+  milestones           RouteTemplateMilestone[]
+  narrations           RouteTemplateNarration[]
+  routes               Route[]
+  reports              RouteReport[]
+
+  @@index([levelCode, distanceMeters, status])
+  @@map("route_templates")
+}
+
+model RouteTemplateMilestone {
+  templateId     String                              @map("template_id") @db.VarChar(64)
+  ordinal        Int
+  milestoneId    String                              @map("milestone_id") @db.VarChar(64)
+  location       Unsupported("geometry(Point,4326)")
+  distanceMeters Int                                 @map("distance_meters")
+  radiusMeters   Int                                 @default(25) @map("radius_meters")
+  exp            Int
+  template       RouteTemplate                       @relation(fields: [templateId], references: [id], onDelete: Cascade)
+
+  @@id([templateId, ordinal])
+  @@unique([templateId, milestoneId])
+  @@map("route_template_milestones")
+}
+
+model RouteTemplateNarration {
+  id              String        @id @db.VarChar(64)
+  templateId      String        @map("template_id") @db.VarChar(64)
+  locale          Locale
+  title           String        @db.VarChar(120)
+  mysteryBrief    String        @map("mystery_brief") @db.VarChar(500)
+  preRunTip       String        @map("pre_run_tip") @db.VarChar(240)
+  warning         String?       @db.VarChar(240)
+  selectionReason String        @map("selection_reason") @db.VarChar(240)
+  dialogues       Json          @db.JsonB
+  createdAt       DateTime      @default(now()) @map("created_at") @db.Timestamptz(6)
+  template        RouteTemplate @relation(fields: [templateId], references: [id], onDelete: Cascade)
+
+  @@unique([templateId, locale])
+  @@map("route_template_narrations")
+}
+
+model Route {
+  id                String            @id @db.VarChar(64)
+  userId            String            @map("user_id") @db.VarChar(64)
+  templateId        String?           @map("template_id") @db.VarChar(64)
+  configVersion     Int               @map("config_version")
+  status            RouteStatus       @default(generating)
+  revealMode        RevealMode        @map("reveal_mode")
+  selectionReason   String?           @map("selection_reason") @db.VarChar(240)
+  weatherHint       Json?             @map("weather_hint") @db.JsonB
+  generationFailure Json?             @map("generation_failure") @db.JsonB
+  generationInput   Json?             @map("generation_input") @db.JsonB
+  replacesRouteId   String?           @unique(map: "routes_replaces_route_id_key") @map("replaces_route_id") @db.VarChar(64)
+  expiresAt         DateTime          @map("expires_at") @db.Timestamptz(6)
+  usedAt            DateTime?         @map("used_at") @db.Timestamptz(6)
+  createdAt         DateTime          @default(now()) @map("created_at") @db.Timestamptz(6)
+  updatedAt         DateTime          @updatedAt @map("updated_at") @db.Timestamptz(6)
+  user              User              @relation(fields: [userId], references: [id], onDelete: Cascade)
+  template          RouteTemplate?    @relation(fields: [templateId], references: [id], onDelete: SetNull)
+  config            GameConfigVersion @relation(fields: [configVersion], references: [version], onDelete: Restrict)
+  replacesRoute     Route?            @relation("RouteReplacement", fields: [replacesRouteId], references: [id], onDelete: SetNull)
+  replacementRoute  Route?            @relation("RouteReplacement")
+  reports           RouteReport[]
+  run               Run?
+
+  @@index([userId, status, createdAt])
+  @@index([templateId, userId, usedAt])
+  @@index([userId, replacesRouteId, createdAt])
+  @@map("routes")
+}
+
+model RouteReport {
+  id         String        @id @db.VarChar(64)
+  routeId    String        @map("route_id") @db.VarChar(64)
+  templateId String        @map("template_id") @db.VarChar(64)
+  userId     String        @map("user_id") @db.VarChar(64)
+  reason     ReportReason
+  details    String?       @db.VarChar(240)
+  status     ReportStatus  @default(received)
+  createdAt  DateTime      @default(now()) @map("created_at") @db.Timestamptz(6)
+  updatedAt  DateTime      @updatedAt @map("updated_at") @db.Timestamptz(6)
+  route      Route         @relation(fields: [routeId], references: [id], onDelete: Cascade)
+  template   RouteTemplate @relation(fields: [templateId], references: [id], onDelete: Cascade)
+  user       User          @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([routeId, userId])
+  @@index([templateId, status, createdAt])
+  @@map("route_reports")
+}
+
+model Inventory {
+  userId    String   @map("user_id") @db.VarChar(64)
+  itemCode  ItemCode @map("item_code")
+  quantity  Int      @default(0)
+  createdAt DateTime @default(now()) @map("created_at") @db.Timestamptz(6)
+  updatedAt DateTime @updatedAt @map("updated_at") @db.Timestamptz(6)
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@id([userId, itemCode])
+  @@map("inventory")
+}
+
+model Loadout {
+  userId           String    @id @map("user_id") @db.VarChar(64)
+  boostItemCode    ItemCode? @map("boost_item_code")
+  modifierItemCode ItemCode? @map("modifier_item_code")
+  updatedAt        DateTime  @updatedAt @map("updated_at") @db.Timestamptz(6)
+  user             User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("loadouts")
+}
+
+model Run {
+  id               String               @id @db.VarChar(64)
+  userId           String               @map("user_id") @db.VarChar(64)
+  routeId          String               @unique @map("route_id") @db.VarChar(64)
+  configVersion    Int                  @map("config_version")
+  status           RunStatus            @default(active)
+  integrity        Integrity            @default(clean)
+  reasonCodes      Json                 @default("[]") @map("reason_codes") @db.JsonB
+  lockedLoadout    Json                 @map("locked_loadout") @db.JsonB
+  claimId          String?              @unique @map("claim_id") @db.VarChar(64)
+  claimedAt        DateTime?            @map("claimed_at") @db.Timestamptz(6)
+  result           Json?                @db.JsonB
+  startedAt        DateTime             @default(now()) @map("started_at") @db.Timestamptz(6)
+  endedAt          DateTime?            @map("ended_at") @db.Timestamptz(6)
+  lastSequence     Int                  @default(0) @map("last_sequence")
+  createdAt        DateTime             @default(now()) @map("created_at") @db.Timestamptz(6)
+  updatedAt        DateTime             @updatedAt @map("updated_at") @db.Timestamptz(6)
+  user             User                 @relation(fields: [userId], references: [id], onDelete: Cascade)
+  route            Route                @relation(fields: [routeId], references: [id], onDelete: Restrict)
+  batches          RunLocationBatch[]
+  milestoneResults RunMilestoneResult[]
+  integrityMetrics RunIntegrityMetric?
+  expLedger        ExpLedger[]
+  coinLedger       CoinLedger[]
+
+  @@index([userId, status, startedAt])
+  @@index([userId, endedAt])
+  @@map("runs")
+}
+
+model RunLocationBatch {
+  id            String   @id @db.VarChar(64)
+  runId         String   @map("run_id") @db.VarChar(64)
+  firstSequence Int      @map("first_sequence")
+  lastSequence  Int      @map("last_sequence")
+  sampleCount   Int      @map("sample_count")
+  samples       Json     @db.JsonB
+  receivedAt    DateTime @default(now()) @map("received_at") @db.Timestamptz(6)
+  run           Run      @relation(fields: [runId], references: [id], onDelete: Cascade)
+
+  @@unique([runId, firstSequence, lastSequence])
+  @@index([runId, firstSequence])
+  @@map("run_location_batches")
+}
+
+model RunMilestoneResult {
+  id                 String    @id @db.VarChar(64)
+  runId              String    @map("run_id") @db.VarChar(64)
+  milestoneId        String    @map("milestone_id") @db.VarChar(64)
+  ordinal            Int
+  clientReachedAt    DateTime? @map("client_reached_at") @db.Timestamptz(6)
+  clientLocation     Json?     @map("client_location") @db.JsonB
+  lastSampleSequence Int?      @map("last_sample_sequence")
+  status             String    @db.VarChar(16)
+  verification       String    @default("provisional") @db.VarChar(16)
+  verifiedAt         DateTime? @map("verified_at") @db.Timestamptz(6)
+  activeSecAtReach   Int?      @map("active_sec_at_reach")
+  earnedExp          Int       @default(0) @map("earned_exp")
+  protected          Boolean   @default(false)
+  createdAt          DateTime  @default(now()) @map("created_at") @db.Timestamptz(6)
+  updatedAt          DateTime  @updatedAt @map("updated_at") @db.Timestamptz(6)
+  run                Run       @relation(fields: [runId], references: [id], onDelete: Cascade)
+
+  @@unique([runId, milestoneId])
+  @@unique([runId, ordinal])
+  @@map("run_milestone_results")
+}
+
+model RunIntegrityMetric {
+  runId        String        @id @map("run_id") @db.VarChar(64)
+  metrics      Json          @db.JsonB
+  reasonCodes  Json          @default("[]") @map("reason_codes") @db.JsonB
+  mode         AntiCheatMode
+  calculatedAt DateTime      @default(now()) @map("calculated_at") @db.Timestamptz(6)
+  run          Run           @relation(fields: [runId], references: [id], onDelete: Cascade)
+
+  @@map("run_integrity_metrics")
+}
+
+model ExpLedger {
+  id             String   @id @db.VarChar(64)
+  userId         String   @map("user_id") @db.VarChar(64)
+  runId          String?  @map("run_id") @db.VarChar(64)
+  delta          Int
+  reason         String   @db.VarChar(64)
+  refId          String?  @map("ref_id") @db.VarChar(64)
+  idempotencyKey String   @unique @map("idempotency_key") @db.VarChar(255)
+  createdAt      DateTime @default(now()) @map("created_at") @db.Timestamptz(6)
+  user           User     @relation(fields: [userId], references: [id], onDelete: Restrict)
+  run            Run?     @relation(fields: [runId], references: [id], onDelete: Restrict)
+
+  @@index([userId, createdAt])
+  @@index([runId])
+  @@map("exp_ledger")
+}
+
+model CoinLedger {
+  id             String   @id @db.VarChar(64)
+  userId         String   @map("user_id") @db.VarChar(64)
+  runId          String?  @map("run_id") @db.VarChar(64)
+  delta          Int
+  carryMilli     Int      @map("carry_milli")
+  reason         String   @db.VarChar(64)
+  refId          String?  @map("ref_id") @db.VarChar(64)
+  idempotencyKey String   @unique @map("idempotency_key") @db.VarChar(255)
+  createdAt      DateTime @default(now()) @map("created_at") @db.Timestamptz(6)
+  user           User     @relation(fields: [userId], references: [id], onDelete: Restrict)
+  run            Run?     @relation(fields: [runId], references: [id], onDelete: Restrict)
+
+  @@index([userId, createdAt])
+  @@index([runId])
+  @@map("coin_ledger")
+}
+
+model AntiCheatConfig {
+  version    Int           @id
+  mode       AntiCheatMode
+  thresholds Json          @db.JsonB
+  activeAt   DateTime      @default(now()) @map("active_at") @db.Timestamptz(6)
+  createdAt  DateTime      @default(now()) @map("created_at") @db.Timestamptz(6)
+
+  @@map("anti_cheat_config")
+}

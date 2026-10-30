@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Milestracks</string>
+    <string name="run_notification_channel_name">Run tracking</string>
+    <string name="run_notification_channel_description">Ongoing status and safety controls for your active run.</string>
+</resources>
