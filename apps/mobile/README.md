@@ -1,11 +1,16 @@
 # Milestracks Mobile
 
-Flutter client for Android and iOS. The current app is a scaffold; feature work
-is being introduced in approved stages.
+Flutter client for the Milestracks running-adventure app on Android and iOS. The client supports account onboarding/sign-in, route preparation, live run tracking, milestone feedback, Safe Stop, results/recovery, run history, profile, inventory/shop, and English/Indonesian localization. Some secondary destinations remain previews or placeholders; see **Current scope** below.
 
-## Setup
+## Requirements
 
-Requires Flutter 3.47.7 (Dart 3.13.5).
+- Flutter SDK compatible with `pubspec.yaml` (Dart `^3.13.5`).
+- Android Studio/Android SDK for Android, or Xcode on macOS for iOS.
+- A running Milestracks API for remote mode. Start it using the [API README](../api/README.md).
+
+## Run locally
+
+From `apps/mobile`:
 
 ```powershell
 Copy-Item env/development.json.example env/development.local.json
@@ -13,29 +18,26 @@ flutter pub get
 flutter run --dart-define-from-file=env/development.local.json
 ```
 
-Remote API mode is enabled by default. Android emulator development uses
-`http://10.0.2.2:3000/api/v1`; iOS simulator development uses
-`http://localhost:3000/api/v1`. For a physical device, set `API_BASE_URL` to
-the development machine's LAN address. Use `USE_FAKE_API=true` to switch back
-to the Fake repositories. Debug builds allow HTTP locally; release builds
-require an explicit HTTPS `API_BASE_URL`.
+The example targets `http://10.0.2.2:3000/api/v1` for the Android emulator. For iOS Simulator, set `API_BASE_URL` to `http://localhost:3000/api/v1`. For a physical phone, use the development computer's LAN IP and ensure both devices can reach it. Local HTTP is accepted only in development debug builds; other builds require HTTPS.
 
-Copy `env/development.json.example` to a local-only file before running. For an
-iOS simulator, replace its API URL with `http://localhost:3000/api/v1`. Add map
-tile keys and Sentry DSN only through local dart-define files or CI secrets; do
-not commit them.
+To use fake repositories for UI development, set `USE_FAKE_API` to `true` in the local dart-define JSON. Fake mode does not call the API and is not a substitute for testing remote integration.
 
-Supported compile-time settings: `APP_FLAVOR` (`development`, `staging`, or
-`production`), `USE_FAKE_API`, `API_BASE_URL`, `MAP_TILE_URL`, `MAP_TILE_KEY`,
-`GOOGLE_CLIENT_ID`, `GOOGLE_SERVER_CLIENT_ID`, and `SENTRY_DSN`.
+## Configuration
 
-Google sign-in needs an OAuth client for the app platform and a Web/server
-OAuth client. Set the iOS client ID in `GOOGLE_CLIENT_ID` and the Web client ID
-in `GOOGLE_SERVER_CLIENT_ID`; configure the matching Android SHA-1 and iOS URL
-scheme in Google Cloud. The API's `GOOGLE_CLIENT_ID` must equal the Web client
-ID used as `GOOGLE_SERVER_CLIENT_ID`. These IDs are public client identifiers,
-but keep environment-specific values in local files. No client secret belongs
-in the mobile app.
+`env/development.json.example` documents compile-time settings:
+
+- `APP_FLAVOR`: `development`, `staging`, or `production`.
+- `USE_FAKE_API`: switch between fake and remote repositories.
+- `API_BASE_URL`: API root, including `/api/v1`.
+- `GOOGLE_CLIENT_ID`, `GOOGLE_SERVER_CLIENT_ID`: platform OAuth client IDs for Google Sign-In. Configure matching Android SHA-1/iOS URL scheme and API audience.
+- `MAP_TILE_URL`, `MAP_DARK_TILE_URL`, `MAP_TILE_KEY`, `MAP_TILE_ATTRIBUTION`: optional map tile source. Use a provider you are authorized to use and preserve required attribution. Do not ship the development OpenStreetMap raster tile endpoint as a production tile service.
+- `SENTRY_DSN`: optional crash reporting endpoint.
+
+Keep `development.local.json`, credentials, and provider keys out of version control. Client IDs are not secrets, but configure them for the intended environment. Never put server credentials in the app.
+
+## Run engine notes
+
+The app collects location updates on-device and renders route/run progress locally while synchronizing run state with the API. Location quality depends on device permissions, GPS reception, operating-system background behavior, and movement. Test GPS behavior outdoors and on a physical device before relying on pace or distance. Safe Stop is a user-controlled early stop; route safety scores and map data cannot guarantee that an area is safe.
 
 ## Checks
 
@@ -45,18 +47,10 @@ flutter analyze --fatal-infos
 flutter test --dart-define=USE_FAKE_API=true
 ```
 
-The root GitHub Actions workflow runs these checks for mobile changes.
+## Current scope
 
-## Getting Started
+League and Friends are placeholders. Notifications, readiness/deletion, payment/top-up, password reset/email verification, and other preview screens do not represent complete backend workflows. Item/economy and run outcomes shown in remote mode depend on the API; fake mode uses fixtures.
 
-This project is a starting point for a Flutter application.
+## License
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Project source code is licensed under Apache-2.0; see the repository [LICENSE](../../LICENSE). Third-party packages and bundled assets retain their own licenses and attribution requirements. Google sign-in imagery, fonts, map tiles/data, and Flutter dependencies are not relicensed by the project license.
